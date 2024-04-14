@@ -1,133 +1,44 @@
 import Navbar from '@/app/components/Navbar';
+import Image from 'next/image';
 import React from 'react';
-import { styled } from 'styled-components';
-
-const Container = styled.div`
-  width: 1400px;
-  display: flex;
-  justify-content: space-between;
-
-  @media only screen and (max-width: 768px) {
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-  }
-`;
-
-const Left = styled.div`
-  flex: 1;
-
-  @media only screen and (max-width: 768px) {
-    display: none;
-  }
-`;
-
-const Title = styled.h1`
-  font-size: 80px;
-
-  @media only screen and (max-width: 768px) {
-  font-size: 44px;
-  }
-`;
-
-const Right = styled.div`
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 10px;
-
-  @media only screen and (max-width: 768px) {
-    align-items: center;
-    text-align: center;
-  }
-`;
-const WhatWeDo = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 10px;
-`;
-const Line = styled.img`
-  height: 5px;
-
-  @media only screen and (max-width: 768px) {
-    display: block;
-  height: 3px;
-  }
-`;
-const Line2 = styled.img`
-  height: 5px;
-
-  @media only screen and (max-width: 768px) {
-    display: block;
-  height: 3px;
-  }
-`;
-const Desc = styled.p`
-  font-size: 24px;
-  color: lightgray;
-
-  @media only screen and (max-width: 768px) {
-    font-size: 20px;
-  }
-`;
-const Button = styled.button`
-  background-color: darkblue;
-  color: white;
-  font-weight: 500;
-  width: 150px;
-  padding: 5px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-`;
-
-const Img = styled.img`
-  width: 600px;
-  height: 900px;
-  object-fit: contain;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  animation: animate 2s infinite ease alternate;
-
-  @keyframes animate {
-    to {
-      transform: translateY(35px);
-    }
-  }
-`;
 
 const Hero: React.FC = () => {
   return (
-    <div className=" flex flex-col justify-center items-center px-2">
-    <Navbar />      
-    <div className="h-[100vh] pt-5  w-full md:flex lg:flex xl:flex">
-        <Left>
-        <Img src="./img/hacker3.png" />
-        </Left>
-        <Right>
-          <Title>Imagine.</Title>
-          <Title>Learn.</Title>
-          <Title> Solve.</Title>
-          <WhatWeDo>
-            <Line src="./img/line.png" alt="line" />
-            <p className='text-pink-400'>Difficult Takes a Day</p>
-            <Line2 className="hidden" src="./img/line.png" alt="line" />
-            <p className='text-pink-400'>Impossible Takes a Week</p>
-            <Line2 className="hidden" src="./img/line.png" alt="line" />
-          </WhatWeDo>
-          <Desc>
-            Before you, lies a relentless explorer with an affinity for unraveling the complexities of our modern world&apos;s diverse software,
-            languages, and frameworks. A silent conqueror of uncharted realms, I thrive in the realm of perpetual learning,
-            turning the unknown into a sandbox of possibilities.
-          </Desc>
-          <Button><a href='/tutorials' >More</a></Button>
-        </Right>
+    <div className=" flex flex-col justify-center items-center px-5">
+      <Navbar />      
+      <div className="h-full w-full md:flex-row lg:flex-row xl:flex">
+        <div className="flex flex-col justify-center flex-1 w-full md:p-10 lg:px-56 xl:px-56 gap-2">
+          <div className='text-center text-8xl text-medium lg:text-start xl:text-start'>
+                <h1>Imagine.</h1>
+                <h1>Learn.</h1>
+                <h1> Solve.</h1>
+              </div>
+              <div className='flex gap-2 py-1 items-center justify-center lg:justify-start xl:justify-start'>
+                <Image src="/img/line.png" alt="line" width={35} height={5} />
+                <p className='text-pink-400'>Difficult Takes a Day</p>
+                <Image src="/img/line.png" alt="line" width={35} height={5} />
+              </div>
+              <div className='flex gap-2 py-1 items-center justify-center lg:justify-start xl:justify-start'>
+                <Image src="/img/line.png" alt="line" width={35} height={5} />
+                <p className='text-pink-400'>Impossible Takes a Week</p>
+                <Image src="/img/line.png" alt="line" width={35} height={5} />
+              </div>
+              <div className='text-xl color-gray-200'>
+                Before you, lies a relentless explorer with an affinity for unraveling the complexities of our modern world&apos;s diverse software,
+                languages, and frameworks. A silent conqueror of uncharted realms, I thrive in the realm of perpetual learning,
+                turning the unknown into a sandbox of possibilities.
+              </div>
+              <div className='pt-2'>       
+                <div /*BUTTON*/
+                className='bg-blue-600 text-white text-center font-medium w-36 p-1 rounded-md cursor-pointer hover:bg-blue-800 hover:text-blue-100'>
+                <a href='/tutorials' >More</a></div></div>
+
+          </div>
+            <div className='flex-2 flex flex-col justify-center lg:mr-32 xl:mr-32 py-4'>
+              <div className='w-96 h-96 pb-5 object-contain m-auto'>
+              <Image src="/img/hacker6.png" alt='' width={800} height={800} className='rounded-3xl' />
+            </div>
+          </div>
       </div>
     </div>
   );

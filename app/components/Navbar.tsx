@@ -10,17 +10,15 @@ const Navbar: React.FC = () => {
   const MenuItems = [
     { name: 'Home', link: '/' },
     { name: 'Websites', link: '/websites' },
-    { name: 'Apps', link: '/apps' },
-    { name: 'Games', link: '/games' },
+    { name: 'Services', link: '/services' },
     { name: 'About', link: '/about' },
   ];
 
   return (
       <div>
+        <div className='md:flex lg:flex xl:flex flex-row justify-between items-center gap-36 p-2 lg:gap-96 xl:gap-96'>
 
-        <div className='md:flex lg:flex xl:flex flex-row justify-between items-center gap-36 p-2'>
-
-          <div className='items-center justify-center py-4'>
+          <div className='items-center justify-center'>
             <div className='pl-10 md:pl-0 lg:pl-0 xl:pl-0'>
               <a href='/'>
                 <Image src="/img/LogoWhite.png" alt='logo' width={300} height={100}

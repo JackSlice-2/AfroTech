@@ -5,7 +5,7 @@ import Hero from "./components/Hero";
 const App: React.FC = (props) => {
   return (
       <div
-        className="h-[110vh] overflow-y-auto overflow-x-hidden
+        className="h-screen overflow-y-auto overflow-x-hidden
        text-gray-300 w-max-full "
         style={{
           backgroundImage: "url('./img/bg.jpeg')",
