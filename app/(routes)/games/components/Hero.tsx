@@ -3,9 +3,9 @@ import Navbar from '../../../components/Navbar';
 
 const Hero: React.FC = () => {
     return (
-        <section className="h-screen  flex flex-col justify-between items-center">
+        <div className=" flex flex-col justify-center items-center px-2">
         <Navbar />
-        <div className="h-[110vh]  w-[1400px] flex justify-between">
+        <div className="h-[100vh] pt-5  w-full md:flex lg:flex xl:flex">
                 <div className='gap-7 justify-center flex-2 flex flex-col'>
                     <h1 className='text-6xl'>Coming Soon...</h1>
                     <div className='flex items-center gap-2'>
@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
                 <div className='relative w-3/4'>
                 </div>
             </div>
-        </section>
+        </div>
     );
 };
 

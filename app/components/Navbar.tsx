@@ -18,13 +18,15 @@ const Navbar: React.FC = () => {
   return (
       <div>
 
-        <div className='md:flex lg:flex xl:flex flex-row justify-between items-center gap-56'>
+        <div className='md:flex lg:flex xl:flex flex-row justify-between items-center gap-36 p-2'>
 
-          <div className='items-center justify-center py-4 ml-16'>
-            <a href='/'>
-              <Image src="/img/LogoWhite.png" alt='logo' width={300} height={100}
-            className='animate-opacityPulse hover:opacity-100 hover:animate-none'/>
-            </a>
+          <div className='items-center justify-center py-4'>
+            <div className='pl-10 md:pl-0 lg:pl-0 xl:pl-0'>
+              <a href='/'>
+                <Image src="/img/LogoWhite.png" alt='logo' width={300} height={100}
+              className='animate-opacityPulse hover:opacity-100 hover:animate-none'/>
+              </a>
+            </div>
           </div>
           
             <div className='flex flex-row justify-center items-center gap-9 py-3'>

@@ -104,9 +104,9 @@ const Img = styled.img`
 
 const Hero: React.FC = () => {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className=" flex flex-col justify-center items-center px-2">
     <Navbar />      
-      <Container>
+    <div className="h-[100vh] pt-5  w-full md:flex lg:flex xl:flex">
         <Left>
         <Img src="./img/hacker3.png" />
         </Left>
@@ -128,7 +128,7 @@ const Hero: React.FC = () => {
           </Desc>
           <Button><a href='/tutorials' >More</a></Button>
         </Right>
-      </Container>
+      </div>
     </div>
   );
 };
