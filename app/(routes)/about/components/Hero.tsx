@@ -10,17 +10,17 @@ const Hero: React.FC = () => {
         <div className="flex flex-col justify-center flex-1 w-full md:p-10 lg:px-56 xl:px-56 gap-2">
           <div className='text-center text-8xl text-medium lg:text-start xl:text-start'>
                 <h1>Imagine.</h1>
-                <h1>Learn.</h1>
-                <h1> Solve.</h1>
+                <h1>Aprenda.</h1>
+                <h1> Soluciona.</h1>
               </div>
               <div className='flex gap-2 py-1 items-center justify-center lg:justify-start xl:justify-start'>
                 <Image src="/img/line.png" alt="line" width={35} height={5} />
-                <p className='text-pink-400'>Difficult Takes a Day</p>
+                <p className='text-pink-400'>O Dificil Leva um Dia</p>
                 <Image src="/img/line.png" alt="line" width={35} height={5} />
               </div>
               <div className='flex gap-2 py-1 items-center justify-center lg:justify-start xl:justify-start'>
                 <Image src="/img/line.png" alt="line" width={35} height={5} />
-                <p className='text-pink-400'>Impossible Takes a Week</p>
+                <p className='text-pink-400'>O Impossivel, uma Semana</p>
                 <Image src="/img/line.png" alt="line" width={35} height={5} />
               </div>
               <div className='text-xl color-gray-200'>
@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
               <div className='pt-2'>       
                 <div /*BUTTON*/
                 className='bg-blue-600 text-white text-center font-medium w-36 p-1 rounded-md cursor-pointer hover:bg-blue-800 hover:text-blue-100'>
-                <a href='/tutorials' >More</a></div></div>
+                <a href='/contact' >Chama Agora!</a></div></div>
 
           </div>
             <div className='flex-2 flex flex-col justify-center lg:mr-32 xl:mr-32 py-4'>
