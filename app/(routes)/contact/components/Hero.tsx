@@ -11,19 +11,19 @@ const ContactInfo = [
 
 const Hero: React.FC = () => {
     return (
-      <section className="flex flex-col justify-center items-center lg:px-40 xl:px-40">
+      <section className="grid grid-col justify-center items-center lg:px-40 xl:px-40">
         <Navbar />
-        <div className="relative flex justify-center items-center flex-col lg:px-20 xl:px-20">
+        <div className="relative grid justify-center items-center grid-col lg:px-20 xl:px-20">
          
         <div className="bg-blue-400/20 w-full rounded-3xl text-center">
             <h2 className='text-4xl text-medium p-1'>Quem somos</h2>
             <p className='text-medium p-3 pb-5'>A Allexo é uma empresa de tecnologia fundada em 2016 com o objetivo de desenvolver soluções de Internet das Coisas para pequenas, médias e grandes indústrias visando tornar acessível as modernas tecnologias da Indústria 4.0 para qualquer tipo de empresa, para empresas de qualquer tamanho.</p>
         </div>
-        <div className="w-full flex justify-center m-5 flex-col lg:flex-row xl:flex-row">
-        <div className="w-full flex flex-col gap-4 p-12">
+        <div className="w-full grid justify-center m-5 grid-col lg:grid-row xl:grid-row">
+        <div className="w-full grid grid-col gap-4 p-12">
           {ContactInfo.map((item, index) => (
-            <div key={index} className="relative flex max-w-96 p-2 rounded-2xl bg-blue-400/20 hover:bg-blue-900/30 hover:text-blue-500">
-              <div className="w-14 h-14 bg-white flex justify-center items-center rounded-md text-md color-black m-2">
+            <div key={index} className="relative grid max-w-96 p-2 rounded-2xl bg-blue-400/20 hover:bg-blue-900/30 hover:text-blue-500">
+              <div className="w-14 h-14 bg-white grid justify-center items-center rounded-md text-md color-black m-2">
                 <i className={item.icon}></i>
               </div>
               <div className="text">
@@ -42,13 +42,13 @@ const Hero: React.FC = () => {
                         <p className='p-2'>Por favor preencha os campos abaixo para podermos entrar em contato.</p>
                     </div>
             
-                    <div className="p-1 flex gap-1 justify-center items-center text-center">
+                    <div className="p-1 grid gap-1 justify-center items-center text-center">
                     <span>Nome Completo:</span>
                         <input type="text" name="name" required
                         className='rounded-lg bg-gray-400/30 p-1'></input>
                     </div>    
             
-                    <div className="p-2 flex-col gap-2 justify-center items-center">
+                    <div className="p-2 grid-col gap-2 justify-center items-center">
                         <h3 className='p-2'>Selecione um das Opçoes abaixo:</h3>
                         <div>
                             <div>
