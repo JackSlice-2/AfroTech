@@ -9,7 +9,7 @@ const ContactInfo = [
     { icon: 'fa fa-clock', label: 'Hours', info: 'Segunda a Sexta 8:00 - 18:00' },
   ]
 
-const Hero: React.FC = () => {
+const Services: React.FC = () => {
     return (
       <section className="flex flex-col justify-center items-center lg:px-40 xl:px-40">
         <Navbar />
@@ -85,4 +85,4 @@ const Hero: React.FC = () => {
     );
 };
 
-export default Hero;
+export default Services;

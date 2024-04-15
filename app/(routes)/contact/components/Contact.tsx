@@ -9,12 +9,12 @@ const ContactInfo = [
     { icon: 'fa fa-clock', label: 'Hours', info: 'Segunda a Sexta 8:00 - 18:00' },
   ]
 
-const Hero: React.FC = () => {
+const Contact: React.FC = () => {
     return (
       <section className="grid grid-col justify-center items-center lg:px-40 xl:px-40">
         <Navbar />
         <div className="relative grid justify-center items-center grid-col lg:px-20 xl:px-20">
-         
+        
         <div className="bg-blue-400/20 w-full rounded-3xl text-center">
             <h2 className='text-4xl text-medium p-1'>Quem somos</h2>
             <p className='text-medium p-3 pb-5'>A Allexo é uma empresa de tecnologia fundada em 2016 com o objetivo de desenvolver soluções de Internet das Coisas para pequenas, médias e grandes indústrias visando tornar acessível as modernas tecnologias da Indústria 4.0 para qualquer tipo de empresa, para empresas de qualquer tamanho.</p>
@@ -85,4 +85,4 @@ const Hero: React.FC = () => {
     );
 };
 
-export default Hero;
+export default Contact;

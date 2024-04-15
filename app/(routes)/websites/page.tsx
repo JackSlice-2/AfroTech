@@ -1,6 +1,7 @@
 "use client";
 
-import Hero from "./components/Hero";
+import Navbar from "@/app/components/Navbar";
+import Websites from "./components/Websites";
 
 const App: React.FC = (props) => {
   return (
@@ -22,7 +23,7 @@ const App: React.FC = (props) => {
             }
           `}
         </style>
-      <Hero />
+      <Websites />
     </div>
   );
 }

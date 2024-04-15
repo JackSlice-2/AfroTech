@@ -4,10 +4,10 @@ import React from 'react';
 
 const Hero: React.FC = () => {
   return (
-    <div className=" grid grid-col justify-center items-center px-5">
-      <Navbar />      
-      <div className="h-full w-full md:grid-row lg:grid-row xl:grid">
-        <div className="grid grid-col justify-center grid-1 w-full md:p-10 lg:px-56 xl:px-56 gap-2">
+    <div className=" flex flex-col justify-center items-center px-5">
+      <Navbar />
+      <div className="h-full w-full md:flex-row lg:flex-row xl:flex">
+        <div className="flex flex-col justify-center flex-1 w-full md:p-10 lg:px-56 xl:px-56 gap-2">
           <div className='text-center text-8xl text-medium lg:text-start xl:text-start'>
                 <h1>Imagine.</h1>
                 <h1>Learn.</h1>
@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
                 <a href='/tutorials' >More</a></div></div>
 
           </div>
-            <div className='grid-2 grid grid-col justify-center lg:mr-32 xl:mr-32 py-4'>
+            <div className='flex-2 flex flex-col justify-center lg:mr-32 xl:mr-32 py-4'>
               <div className='w-96 h-96 pb-5 object-contain m-auto'>
               <Image src="/img/hacker6.png" alt='' width={800} height={800} className='rounded-3xl' />
             </div>

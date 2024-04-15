@@ -1,6 +1,6 @@
 "use client";
 
-import Hero from "./components/Hero";
+import Contact from "./components/Contact";
 
 const App: React.FC = (props) => {
   return (
@@ -22,7 +22,7 @@ const App: React.FC = (props) => {
             }
           `}
         </style>
-      <Hero />
+      <Contact />
     </div>
   );
 }

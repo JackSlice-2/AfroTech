@@ -1,13 +1,13 @@
 "use client";
 
-import Hero from "./components/Hero";
+import Root from "./components/Root";
 
 const App: React.FC = (props) => {
   return (
     <>
       <div
         className="h-screen overflow-y-auto overflow-x-hidden
-       text-gray-300 w-max-full "
+       text-gray-300 w-max-full"
         style={{
           backgroundImage: "url('./img/bg.jpeg')",
           WebkitOverflowScrolling: 'touch', // For smooth scrolling on iOS
@@ -23,7 +23,7 @@ const App: React.FC = (props) => {
             }
           `}
         </style>
-        <Hero />
+        <Root />
       </div>
     </>
   );

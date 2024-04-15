@@ -1,12 +1,11 @@
 import React from 'react';
-import Navbar from '../../../components/Navbar';
 import Image from 'next/image';
+import Navbar from '@/app/components/Navbar';
 
-const Hero = () => {
+const Websites = () => {
   return (
     <section className="h-screen flex flex-col justify-between items-center">
-      <Navbar />
-
+<Navbar />
 <div className='justify-center items-center mx-8'>
 
       <div className="h-screen w-full flex sm:flex-col justify-center flex-col lg:flex-row xl:flex-row rounded-xl border-gray-200 border-x-2 px-3 bg-gray-500/20 hover:bg-gray-500/30 m-2 mt-3">
@@ -88,7 +87,7 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Websites;
 
 
 

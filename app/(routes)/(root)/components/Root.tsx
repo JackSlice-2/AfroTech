@@ -2,10 +2,10 @@ import React from 'react';
 import Navbar from '../../../components/Navbar';
 import Image from 'next/image';
 
-const Hero = () => {
+const Root = () => {
   return (
     <div className=" flex flex-col justify-center items-center px-2">
-    <Navbar />
+      <Navbar />
     <div className="h-full w-full md:flex-row lg:flex-row xl:flex">
        
         <div className="flex flex-col justify-center gap-5 flex-1 w-full items-center md:p-10 lg:px-56 xl:px-56">
@@ -43,4 +43,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Root;
