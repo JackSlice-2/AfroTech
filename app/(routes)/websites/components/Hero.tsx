@@ -1,11 +1,6 @@
 import React from 'react';
 import Navbar from '../../../components/Navbar';
-import styled from 'styled-components';
 import Image from 'next/image';
-
-const Button = styled.button`
-transform: translateY(20px) translateX(-150px);
-`;
 
 const Hero = () => {
   return (
@@ -33,7 +28,7 @@ const Hero = () => {
             applications.
           </p>
           <button className="bg-blue-900 text-white self-start font-medium w-36 py-2 rounded-lg cursor-pointer hover:bg-blue-400 hover:text-blue-900">
-            <a href="/about">Learn More</a>
+            <a href="/contact">Learn More</a>
           </button>
         </div>
 
@@ -41,10 +36,11 @@ const Hero = () => {
           <img className='lg:w-[850px] lg:h-[700px] w-[425px] h-[350px] object-contain absolute inset-0 mx-auto bottom-10 lg:bottom-0 xl:bottom-0' 
             src="./img/MacRS.png"/>
           <img className='lg:w-[640px] lg:h-[320px] h-[160px] top-48 object-contain absolute inset-0 mx-auto lg:top-96 left-96' src="./img/IphoneRS.png" />
-          <img className='lg:w-[640px] lg:h-[320px] h-[160px] top-48 object-contain absolute inset-0 mx-auto lg:top-96 left-72' src="./img/AndroidRS.png" />          <a href='https://redeexames.netlify.app/'>
-            <Button 
-              className='w-[90px] h-[80px] object-contain absolute inset-0 mx-auto top-3/4 lg:top-3/4 xl:top-3/4 left-full bg-yellow-500 text-black rounded hover:bg-red-700 hover:text-white'>
-              See Live Demo!</Button>
+          <img className='lg:w-[640px] lg:h-[320px] h-[160px] top-48 object-contain absolute inset-0 mx-auto lg:top-96 left-72' src="./img/AndroidRS.png" />  
+            <a href='https://redeexames.netlify.app/' target="_blank">
+            <button 
+              className='w-[250px] h-[80px] font-medium absolute left-20 top-3/4 lg:top-3/4 xl:top-3/4 bg-yellow-500 text-black rounded hover:bg-red-700 hover:text-white'>
+              See Live Demo!</button>
           </a>
         </div>
 
@@ -57,10 +53,10 @@ const Hero = () => {
             src="./img/MacRS.png"/>
           <img className='lg:w-[640px] lg:h-[320px] h-[160px] top-48 object-contain absolute inset-0 mx-auto lg:top-96 left-96' src="./img/IphoneRS.png" />
           <img className='lg:w-[640px] lg:h-[320px] h-[160px] top-48 object-contain absolute inset-0 mx-auto lg:top-96 left-72' src="./img/AndroidRS.png" />
-          <a href='https://redeexames.netlify.app/'>
-            <Button 
-              className='w-[90px] h-[80px] object-contain absolute inset-0 mx-auto top-3/4 lg:top-3/4 xl:top-3/4 left-full bg-yellow-500 text-black rounded hover:bg-red-700 hover:text-white'>
-              See Live Demo!</Button>
+          <a href='https://redeexames.netlify.app/' target="_blank">
+            <button 
+              className='w-[250px] h-[80px] font-medium absolute left-20 top-3/4 lg:top-3/4 xl:top-3/4 bg-yellow-500 text-black rounded hover:bg-red-700 hover:text-white'>
+              See Live Demo!</button>
           </a>
         </div>
 
@@ -81,7 +77,7 @@ const Hero = () => {
             applications.
           </p>
           <button className="bg-blue-900 text-white self-start font-medium w-36 py-2 rounded-lg cursor-pointer hover:bg-blue-400 hover:text-blue-900">
-            <a href="/about">Learn More</a>
+            <a href="/contact">Learn More</a>
           </button>
         </div>
 

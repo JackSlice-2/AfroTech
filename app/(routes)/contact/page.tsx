@@ -1,10 +1,9 @@
 "use client";
 
-import Hero from "./components/home/Hero";
+import Hero from "./components/Hero";
 
 const App: React.FC = (props) => {
   return (
-    <>
       <div
         className="h-screen overflow-y-auto overflow-x-hidden
        text-gray-300 w-max-full "
@@ -23,10 +22,9 @@ const App: React.FC = (props) => {
             }
           `}
         </style>
-        <Hero />
-      </div>
-    </>
+      <Hero />
+    </div>
   );
-};
+}
 
 export default App;

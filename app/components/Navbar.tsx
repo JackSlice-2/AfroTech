@@ -9,9 +9,10 @@ const Navbar: React.FC = () => {
 
   const MenuItems = [
     { name: 'Home', link: '/' },
-    { name: 'Websites', link: '/websites' },
     { name: 'Services', link: '/services' },
+    { name: 'Websites', link: '/websites' },
     { name: 'About', link: '/about' },
+    { name: 'Contact', link: '/contact' },
   ];
 
   return (
@@ -19,7 +20,7 @@ const Navbar: React.FC = () => {
         <div className='md:flex lg:flex xl:flex flex-row justify-between items-center gap-36 p-2 lg:gap-96 xl:gap-96'>
 
           <div className='items-center justify-center'>
-            <div className='pl-10 md:pl-0 lg:pl-0 xl:pl-0'>
+            <div className='pl-14 md:pl-0 lg:pl-0 xl:pl-0'>
               <a href='/'>
                 <Image src="/img/LogoWhite.png" alt='logo' width={300} height={100}
               className='animate-opacityPulse hover:opacity-100 hover:animate-none'/>
@@ -27,7 +28,7 @@ const Navbar: React.FC = () => {
             </div>
           </div>
           
-            <div className='flex flex-row justify-center items-center gap-9 py-3'>
+            <div className='flex flex-row justify-center items-center gap-7 pt-4 text-md font-medium'>
               {MenuItems.map((item) => (
                 <div key={item.name} className='p-1.5 cursor-pointer hover:scale-150 lg:hover:scale-100 md:hover:scale-100 xl:hover:scale-100 hover:text-medium hover:bg-blue-300/30 rounded-lg hover:text-blue-600'>
                   <a onClick={() => router.push(item.link)}>{item.name}</a>
