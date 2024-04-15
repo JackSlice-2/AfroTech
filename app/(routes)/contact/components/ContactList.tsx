@@ -8,25 +8,25 @@ const ContactInfo = [
     { icon: <Phone />, label: 'Telegram', info: '+55 51 98559-0254' },
     { icon: <Phone />, label: 'Signal', info: '+55 51 98559-0254' },
     { icon: <Mail />, label: 'Email', info: 'AfroTech@proton.me'},
-  ]
+]
 
 const ContactList = () => {
-  return (
-    <div className="w-full flex flex-col gap-4 px-24 py-5">
-    {ContactInfo.map((item, index) => (
-      <div key={index} className="relative flex max-w-96 p-2 rounded-2xl bg-blue-400/20 hover:bg-blue-900/30 hover:text-blue-500">
-        <div className="w-14 h-14 bg-white text-black flex justify-center items-center rounded-md text-md color-black m-2">
-          {item.icon}
+ return (
+    <div className="w-full flex flex-col gap-4 px-8 py-5">
+      {ContactInfo.map((item, index) => (
+        <div key={index} className="flex items-center p-4 rounded-lg bg-blue-400/20 hover:bg-blue-900/30 hover:text-blue-500 shadow-md">
+          <div className="w-10 h-10 bg-blue-500 text-white flex justify-center items-center rounded-full">
+            {React.cloneElement(item.icon, { size: 24, fill: "currentColor" })}
+          </div>
+          <div className="ml-4">
+            <h3 className='text-lg font-semibold'>{item.label}</h3>
+            <p className='text-gray-300'>{item.info}</p>
+          </div>
         </div>
-        <div className="text">
-          <h3 className='p-1'>{item.label}</h3>
-          <p>{item.info}</p>
-        </div>
-      </div>
-    ))}
-    <DiscountButton />
-  </div>
-  )
+      ))}
+      <DiscountButton />
+    </div>
+ )
 }
 
 export default ContactList

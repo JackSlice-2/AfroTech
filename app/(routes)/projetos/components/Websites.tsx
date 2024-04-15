@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '@/app/components/Navbar';
-import TextImageCard from './TextImageCard';
-import ImageTextCard from './ImageTextCard';
+import TextImageCard from '../../../components/TextImageCard';
+import ImageTextCard from '../../../components/ImageTextCard';
 
 const Websites = () => {
   return (
