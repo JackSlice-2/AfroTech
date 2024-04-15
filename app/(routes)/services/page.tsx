@@ -4,9 +4,10 @@ import Services from "./components/Services";
 
 const App: React.FC = (props) => {
   return (
+    <>
       <div
         className="h-screen overflow-y-auto overflow-x-hidden
-       text-gray-300 w-max-full "
+       text-gray-300 w-max-full"
         style={{
           backgroundImage: "url('./img/bg.jpeg')",
           WebkitOverflowScrolling: 'touch', // For smooth scrolling on iOS
@@ -22,9 +23,10 @@ const App: React.FC = (props) => {
             }
           `}
         </style>
-      <Services />
-    </div>
+        <Services />
+      </div>
+    </>
   );
-}
+};
 
 export default App;

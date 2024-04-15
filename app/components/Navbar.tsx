@@ -8,11 +8,11 @@ const Navbar: React.FC = () => {
   const router = useRouter()
 
   const MenuItems = [
-    { name: 'Home', link: '/' },
-    { name: 'Services', link: '/services' },
-    { name: 'Websites', link: '/websites' },
-    { name: 'About', link: '/about' },
-    { name: 'Contact', link: '/contact' },
+    { name: 'Inicio', link: '/' },
+    { name: 'Serviços', link: '/services' },
+    { name: 'Projetos', link: '/projetos' },
+    { name: 'Sobre', link: '/about' },
+    { name: 'Contato', link: '/contact' },
   ];
 
   return (
@@ -59,10 +59,13 @@ const Navbar: React.FC = () => {
             </div>
 
             <div className='justify-center text-center flex items-center p-2'>
-              <div onClick={() => router.push('/hirenow')}
-                className='rounded-lg bg-red-800 text-white border-none cursor-pointer flex hover:scale-125 p-2'>
-                Hire Now!
-              </div>
+              <button 
+              className='rounded-lg bg-red-800 text-white border-none cursor-pointer flex hover:scale-125 p-2'>
+                <a href='https://api.whatsapp.com/send?phone=5551985590254&text=Bom%20dia,%20tenho%20interesse%20de%20fazer%20um%20site%20ou%20applicativo%20para%20minha%20empresa' target='_blank'>
+                 Contrate Agora!
+                </a>
+ 
+              </button>
             </div>
 
           </div>

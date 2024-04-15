@@ -1,12 +1,15 @@
 import React from 'react';
 import Navbar from '../../../components/Navbar';
+import { Mail, Phone } from 'lucide-react';
+import DiscountButton from '@/app/components/DiscountButton';
+
 
 const ContactInfo = [
-    { icon: 'fa fa contact', label: 'Address', info: 'porto alegre, Canoas numero 1444' },
-    { icon: 'fa fa-envelope', label: 'Email', info: 'isjnvsdjvndkj@sdvsdsdv'},
-    { icon: 'fa fa-phone', label: 'Phone', info: '51 999999999' },
-    { icon: 'fa fa-clock', label: 'Hours', info: 'Segunda a Sexta 8:00 - 18:00' },
-    { icon: 'fa fa-clock', label: 'Hours', info: 'Segunda a Sexta 8:00 - 18:00' },
+    { icon: <Phone />, label: 'WhatsApp', info: '+55 51 98559-0254' },
+    { icon: <Phone />, label: 'WhatsApp', info: '+55 51 98579-0398' },
+    { icon: <Phone />, label: 'Telegram', info: '+55 51 98559-0254' },
+    { icon: <Phone />, label: 'Signal', info: '+55 51 98559-0254' },
+    { icon: <Mail />, label: 'Email', info: 'AfroTech@proton.me'},
   ]
 
 const Contact: React.FC = () => {
@@ -24,8 +27,8 @@ const Contact: React.FC = () => {
         <div className="w-full flex flex-col gap-4 px-24 py-5">
           {ContactInfo.map((item, index) => (
             <div key={index} className="relative flex max-w-96 p-2 rounded-2xl bg-blue-400/20 hover:bg-blue-900/30 hover:text-blue-500">
-              <div className="w-14 h-14 bg-white flex justify-center items-center rounded-md text-md color-black m-2">
-                <i className={item.icon}></i>
+              <div className="w-14 h-14 bg-white text-black flex justify-center items-center rounded-md text-md color-black m-2">
+                {item.icon}
               </div>
               <div className="text">
                 <h3 className='p-1'>{item.label}</h3>
@@ -33,6 +36,7 @@ const Contact: React.FC = () => {
               </div>
             </div>
           ))}
+          <DiscountButton />
         </div>
 
             <div className="text-center justify-center align-center px-10">
