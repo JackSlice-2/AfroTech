@@ -1,3 +1,4 @@
+import Button from '@/app/components/Button';
 import Navbar from '@/app/components/Navbar';
 import Image from 'next/image';
 import React from 'react';
@@ -28,14 +29,17 @@ const Hero: React.FC = () => {
                 languages, and frameworks. A silent conqueror of uncharted realms, I thrive in the realm of perpetual learning,
                 turning the unknown into a sandbox of possibilities.
               </div>
-              <div className='pt-2'>       
-                <div /*BUTTON*/
-                className='bg-blue-600 text-white text-center font-medium w-36 p-1 rounded-md cursor-pointer hover:bg-blue-800 hover:text-blue-100'>
-                <a href='/contact' >Chama Agora!</a></div></div>
+              <div className='pt-2'>
+              <Button
+                  url='/contact'
+                  label='Chame Agora!'
+                  more
+                />       
+                </div>
 
           </div>
             <div className='flex-2 flex flex-col justify-center lg:mr-32 xl:mr-32 py-4'>
-              <div className='w-96 h-96 pb-5 object-contain m-auto'>
+              <div className='w-96 h-96 pb-5 object-contain m-auto hover:scale-125 transition'>
               <Image src="/img/hacker6.png" alt='' width={800} height={800} className='rounded-3xl' />
             </div>
           </div>

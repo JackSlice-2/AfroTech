@@ -1,8 +1,10 @@
 import React from 'react';
 import Navbar from '../../../components/Navbar';
 import Image from 'next/image';
+import Button from '@/app/components/Button';
 
 const Root = () => {
+  
   return (
     <div className=" flex flex-col justify-center items-center px-2">
       <Navbar />
@@ -22,9 +24,11 @@ const Root = () => {
             mais intuitiva e sofisticada
             para a melhor experiência do usuário em  applicativos Web, iOS e Android.
           </p>
-          <button className="bg-blue-900 text-white font-medium w-36 py-2 rounded-lg cursor-pointer">
-            <a href="/about">Saiba Mais</a>
-          </button>
+          <Button
+            label='Saiba Mais'
+            more
+            url='/about'
+          />
 
           {/*SMALL SCREEN IMAGES */}
           <div className="relative p-10 lg:hidden xl:hidden">
