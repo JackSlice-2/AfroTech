@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
               </div>
               <div className='flex gap-2 py-1 items-center justify-center lg:justify-start xl:justify-start'>
                 <Image src="/img/line.png" alt="line" width={35} height={5} />
-                <p className='text-pink-400'>O Dificil Leva um Dia</p>
+                <p className='text-pink-400'>Dificil Leva um Dia</p>
                 <Image src="/img/line.png" alt="line" width={35} height={5} />
               </div>
               <div className='flex gap-2 py-1 items-center justify-center lg:justify-start xl:justify-start'>
