@@ -15,12 +15,13 @@ const Contact: React.FC = () => {
         <Navbar />
         <div className="relative flex justify-center items-center flex-col lg:px-20 xl:px-20">
         
-        <div className="bg-blue-400/20 w-full rounded-3xl text-center">
-            <h2 className='text-4xl text-medium p-1'>Quem somos</h2>
+        <div className="bg-blue-400/20 w-full rounded-3xl mx-10 px-20 text-center">
+            <h2 className='text-4xl text-medium p-4'>Quem somos</h2>
             <p className='text-medium p-3 pb-5'>A Allexo é uma empresa de tecnologia fundada em 2016 com o objetivo de desenvolver soluções de Internet das Coisas para pequenas, médias e grandes indústrias visando tornar acessível as modernas tecnologias da Indústria 4.0 para qualquer tipo de empresa, para empresas de qualquer tamanho.</p>
         </div>
+
         <div className="w-full flex justify-center m-5 flex-col lg:flex-row xl:flex-row">
-        <div className="w-full flex flex-col gap-4 p-12">
+        <div className="w-full flex flex-col gap-4 px-24 py-5">
           {ContactInfo.map((item, index) => (
             <div key={index} className="relative flex max-w-96 p-2 rounded-2xl bg-blue-400/20 hover:bg-blue-900/30 hover:text-blue-500">
               <div className="w-14 h-14 bg-white flex justify-center items-center rounded-md text-md color-black m-2">
@@ -34,7 +35,7 @@ const Contact: React.FC = () => {
           ))}
         </div>
 
-            <div className="text-center justify-center align-center pr-10">
+            <div className="text-center justify-center align-center px-10">
 
                 <div className="p-5 bg-blue-400/20 rounded-3xl shadow-sm">
                     <div className="titleWrapper">

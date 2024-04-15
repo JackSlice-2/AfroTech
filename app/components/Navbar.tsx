@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
   ];
 
   return (
-      <div className='max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl'>
+      <div className=''>
         <div className='md:flex lg:flex xl:flex flex-row justify-between items-center gap-36 p-2 lg:gap-96 xl:gap-96'>
 
           <div className='items-center justify-center'>
@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
             </div>
           </div>
           
-            <div className='flex flex-row justify-center items-center gap-7 pt-4 text-md font-medium'>
+            <div className='flex flex-row justify-center items-center gap-2 md:gap-4 lg:gap-7 pt-4 text-md font-medium'>
               {MenuItems.map((item) => (
                 <div key={item.name} className='p-1.5 cursor-pointer hover:scale-150 lg:hover:scale-100 md:hover:scale-100 xl:hover:scale-100 hover:text-medium hover:bg-blue-300/30 rounded-lg hover:text-blue-600'>
                   <a onClick={() => router.push(item.link)}>{item.name}</a>
