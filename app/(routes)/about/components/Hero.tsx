@@ -9,9 +9,9 @@ const Hero: React.FC = () => {
       <div className="h-full w-full md:flex-row lg:flex-row xl:flex">
         <div className="flex flex-col justify-center flex-1 w-full md:p-10 lg:px-56 xl:px-56 gap-2">
           <div className='text-center text-8xl text-medium lg:text-start xl:text-start'>
-                <h1>Imagine.</h1>
-                <h1>Aprenda.</h1>
-                <h1> Soluciona.</h1>
+                <h1>Imaginar.</h1>
+                <h1>Aprender.</h1>
+                <h1> Solucionar.</h1>
               </div>
               <div className='flex gap-2 py-1 items-center justify-center lg:justify-start xl:justify-start'>
                 <Image src="/img/line.png" alt="line" width={35} height={5} />
