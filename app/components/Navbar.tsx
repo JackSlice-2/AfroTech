@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
   ];
 
   return (
-      <div>
+      <div className='max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl'>
         <div className='md:flex lg:flex xl:flex flex-row justify-between items-center gap-36 p-2 lg:gap-96 xl:gap-96'>
 
           <div className='items-center justify-center'>
@@ -66,8 +66,9 @@ const Navbar: React.FC = () => {
             </div>
 
           </div>
+          </div>
 
-      </div>
+    
   );
 };
 
