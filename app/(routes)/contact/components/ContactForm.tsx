@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'; // Import the CSS
 
 const ContactForm = () => {
  const [formData, setFormData] = useState({
@@ -23,13 +25,26 @@ const ContactForm = () => {
       body: JSON.stringify(formData),
     });
     const data = await response.json();
-    console.log(data);
-    // Handle response, e.g., show a success message
+    console.log(data); // Log the response to the console
+
+    // Show a toast notification
+    toast.success('Form submitted successfully!', {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+    });
+
+    // Refresh the page
+    window.location.reload();
  };
 
  return (
     <form onSubmit={handleSubmit} className="p-8 bg-blue-400/20 rounded-3xl shadow-lg">
-  
+
     <div className="p-8 bg-blue-400/20 rounded-3xl shadow-lg">
       <div className="titleWrapper text-center">
         <h2 className='text-2xl mb-5 font-semibold text-gray-300'>Entre em contato</h2>

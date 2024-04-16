@@ -2,10 +2,12 @@ import React from 'react';
 import Navbar from '../../../components/Navbar';
 import ContactList from './ContactList';
 import ContactForm from './ContactForm';
+import { ToastContainer } from 'react-toastify';
 
 const Contact: React.FC = () => {
     return (
       <section className="flex flex-col justify-center items-center lg:px-40 xl:px-40">
+        <ToastContainer />
         <Navbar />
         <div className="relative flex justify-center items-center flex-col lg:px-20 xl:px-20">
         <div className="bg-blue-400/20 w-full rounded-3xl mx-10 px-20 text-center">
