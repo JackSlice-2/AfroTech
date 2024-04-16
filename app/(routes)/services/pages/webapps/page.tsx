@@ -1,6 +1,6 @@
 "use client";
 
-import LandingPage from "./LandingPage";
+import Webapps from "./Webapps";
 
 const App: React.FC = (props) => {
   return (
@@ -23,7 +23,7 @@ background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
             }
           `}
         </style>
-        <LandingPage />
+        <Webapps />
       </div>
     </>
   );

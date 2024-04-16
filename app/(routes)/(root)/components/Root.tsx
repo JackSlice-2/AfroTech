@@ -19,10 +19,10 @@ const Root = () => {
               <h2 className="text-pink-400">O que Fazemos</h2>
             <Image src="/img/line.png" alt="line" height={10} width={50} />
           </div>
-          <p className="text-2xl text-gray-300 text-center">
-            Nós nos esforçamos para criar a interface de usuário 
-            mais intuitiva e sofisticada
-            para a melhor experiência do usuário em  applicativos Web, iOS e Android.
+          <p className="text-2xl text-gray-300 text-center"> 
+          Aqui, simplificamos o complexo e facilitamos sua jornada de negócios. 
+          Nos abraçamos as tendências e conquistamos o mundo online todos os dias. 
+          Está pronto para se destacar?
           </p>
           <Button
             label='Saiba Mais'

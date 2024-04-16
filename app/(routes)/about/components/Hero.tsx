@@ -25,9 +25,13 @@ const Hero: React.FC = () => {
                 <Image src="/img/line.png" alt="line" width={35} height={5} />
               </div>
               <div className='text-xl color-gray-200'>
-                Before you, lies a relentless explorer with an affinity for unraveling the complexities of our modern world&apos;s diverse software,
-                languages, and frameworks. A silent conqueror of uncharted realms, I thrive in the realm of perpetual learning,
-                turning the unknown into a sandbox of possibilities.
+              Diante de você, encontra-se uma equipe de exploradores implacáveis
+              da empresa Afrotech. Somos pessoas com afinidade para desvendar as
+              complexidades dos diversos desafios e erros estruturais
+               do nosso mundo moderno. 
+               Conquistadores naturais de reinos inexplorados, 
+               prosperamos na aprendizagem perpétua, 
+               transformando o desconhecido em uma caixa de areia de possibilidades.
               </div>
               <div className='pt-2'>
               <Button
