@@ -11,6 +11,7 @@ const MacNPhones = () => {
         <Button label='Testa o Demo!'
         url='https://kycnot.me/'
         live={true}
+        newTab={true}
           />
     </div>
   )

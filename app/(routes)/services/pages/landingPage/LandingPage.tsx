@@ -1,4 +1,5 @@
 import Navbar from '@/app/components/Navbar';
+import Image from 'next/image';
 import React from 'react';
 
 const LandingPageInfo = [
@@ -47,7 +48,7 @@ const LandingPage = () => {
           {LandingPageInfo.map((item, index) => (
             <div key={index} className={`flex  hover:scale-110 transition flex-col md:flex-row rounded-2xl shadow-lg overflow-hidden ${index % 2 === 0 ? '' : 'md:flex-row-reverse'}`}>
               <div className="flex-shrink-0 md:w-1/3 transition">
-                <img className="h-full w-full object-cover md:w-full" src={item.img} alt={item.title} />
+                <Image className="h-full w-full object-cover md:w-full" src={item.img} alt={item.title} width={10} height={10} />
               </div>
               <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                 <div className="flex-1">

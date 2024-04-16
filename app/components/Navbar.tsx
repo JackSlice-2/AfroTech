@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
         </div>
         <div className='flex flex-row justify-center items-center gap-2 md:gap-4 lg:gap-7 pt-4 text-md font-medium'>
           {MenuItems.map((item) => (
-            <a onClick={() => router.push(item.link)} key={item.name}>
+            <a onClick={() => router.push(item.link)} key={item.name} href={item.link}>
             <div className='p-1.5 cursor-pointer hover:scale-150 lg:hover:scale-100 md:hover:scale-100 xl:hover:scale-100 hover:text-medium hover:bg-blue-300/30 rounded-lg hover:text-blue-600'>
               {item.name}
             </div>
@@ -44,6 +44,7 @@ const Navbar: React.FC = () => {
               url='https://github.com/JackSlice-2'
               iconBtn={true}
               icon={<GithubIcon />}
+              newTab={true}
               />
             </div>
             <div className='p-1'>
@@ -51,6 +52,7 @@ const Navbar: React.FC = () => {
               iconBtn={true}
               url='https://www.linkedin.com/in/pc-nunes-8a26a2248/'
               icon={<LinkedinIcon />}
+              newTab={true}
               />
             </div>
           </div>
@@ -59,6 +61,7 @@ const Navbar: React.FC = () => {
             label='Contrate Agora!'
             red={true}
             url='https://api.whatsapp.com/send?phone=5551985590254&text=Bom%20dia,%20tenho%20interesse%20de%20fazer%20um%20site%20ou%20applicativo%20para%20minha%20empresa'
+            newTab={true}
           />
         </div>
       </div>

@@ -10,6 +10,7 @@ interface ButtonProps {
     more?: boolean;
     icon?: ReactElement;
     url: string;
+    newTab?: boolean;
 }
 
 const Button: React.FC<ButtonProps> = ({
@@ -19,12 +20,14 @@ const Button: React.FC<ButtonProps> = ({
     more,
     red,
     icon: Icon,
-    url
+    url,
+    newTab,
 }) => {
 
   return (
-<a href={url} target='_blank' > 
+<a href={url} target={newTab ? '_blank' : '_self'} rel={newTab ? 'noopener noreferrer' : ''} > 
     <button 
+    id={label}
     className={`transition font-medium rounded-lg hover:text-white'>
 
         ${live ? 'w-[250px]' : 'w-auto'}
