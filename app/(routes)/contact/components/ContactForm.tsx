@@ -43,10 +43,9 @@ const ContactForm = () => {
  };
 
  return (
-    <form onSubmit={handleSubmit} className="p-8 bg-blue-400/20 rounded-3xl shadow-lg">
 
-    <div className="p-8 bg-blue-400/20 rounded-3xl shadow-lg">
-      <div className="titleWrapper text-center">
+  <form onSubmit={handleSubmit} className="p-8 bg-blue-400/20 rounded-3xl shadow-lg">
+  <div className="titleWrapper text-center">
         <h2 className='text-2xl mb-5 font-semibold text-gray-300'>Entre em contato</h2>
         <p className='text-gray-100'>Por favor preencha os campos abaixo para podermos entrar em contato.</p>
       </div>
@@ -103,7 +102,6 @@ const ContactForm = () => {
           <input type="submit" value="Submit" className="text-white"></input>
         </div>
       </div>
-    </div>
     </form>
  )
 }
