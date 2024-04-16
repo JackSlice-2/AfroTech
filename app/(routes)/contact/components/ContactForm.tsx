@@ -98,8 +98,8 @@ const ContactForm = () => {
             className='bg-gray-400/30 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500' value={formData.message} onChange={handleChange}></textarea>
         </div>
 
-        <div className="bg-blue-900 font-bold rounded-md hover:bg-blue-500 hover:text-blue-800 p-2 text-center">
-          <input type="submit" value="Submit" className="text-white"></input>
+        <div >
+          <input  type="submit" value="Submit" className="text-white bg-blue-900 font-bold rounded-md hover:bg-blue-500 hover:text-blue-800 p-2 text-center w-full"></input>
         </div>
       </div>
     </form>
