@@ -25,10 +25,14 @@ const Button: React.FC<ButtonProps> = ({
 }) => {
 
   return (
-<a href={url} target={newTab ? '_blank' : '_self'} rel={newTab ? 'noopener noreferrer' : ''} > 
+<a href={url}  
+    target={newTab ? '_blank' : '_self'} 
+    rel={newTab ? 'noopener noreferrer' : ''} 
+    aria-label={label}
+> 
     <button 
     id={label}
-    className={`transition font-medium rounded-lg hover:text-white'>
+    className={`transition font-medium rounded-lg hover:text-white'
 
         ${live ? 'w-[250px]' : 'w-auto'}
         ${live ? 'h-[80px]' : 'h-auto'}
