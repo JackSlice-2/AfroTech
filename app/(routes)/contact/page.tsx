@@ -8,7 +8,7 @@ const App: React.FC = (props) => {
         className="h-screen overflow-y-auto overflow-x-hidden
        text-gray-300 w-max-full "
         style={{
-          backgroundImage: "url('./img/bg.jpeg')",
+background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
           WebkitOverflowScrolling: 'touch', // For smooth scrolling on iOS
           scrollbarWidth: 'none', // For Firefox
           msOverflowStyle: 'none', // For Internet Explorer

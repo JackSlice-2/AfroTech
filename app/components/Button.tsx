@@ -23,7 +23,7 @@ const Button: React.FC<ButtonProps> = ({
 }) => {
 
   return (
-
+<a href={url} target='_blank' > 
     <button 
     className={`transition font-medium rounded-lg hover:text-white'>
 
@@ -46,13 +46,10 @@ const Button: React.FC<ButtonProps> = ({
 
         ${more ? 'w-40' : ''}
         `}>
-        <a href={url}
-        target='_blank' > 
         {Icon}
         {label}
-        </a>
-     
     </button>
+        </a>
   )
 }
 

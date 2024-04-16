@@ -29,9 +29,11 @@ const Navbar: React.FC = () => {
         </div>
         <div className='flex flex-row justify-center items-center gap-2 md:gap-4 lg:gap-7 pt-4 text-md font-medium'>
           {MenuItems.map((item) => (
-            <div key={item.name} className='p-1.5 cursor-pointer hover:scale-150 lg:hover:scale-100 md:hover:scale-100 xl:hover:scale-100 hover:text-medium hover:bg-blue-300/30 rounded-lg hover:text-blue-600'>
-              <a onClick={() => router.push(item.link)}>{item.name}</a>
+            <a onClick={() => router.push(item.link)} key={item.name}>
+            <div className='p-1.5 cursor-pointer hover:scale-150 lg:hover:scale-100 md:hover:scale-100 xl:hover:scale-100 hover:text-medium hover:bg-blue-300/30 rounded-lg hover:text-blue-600'>
+              {item.name}
             </div>
+            </a>
             ))}
           </div>
         </div>

@@ -39,11 +39,11 @@ const LandingPage = () => {
             Landing Page
           </h1>
           <p className="mt-3 max-w-md mx-auto text-base text-gray-300 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-            Através da plataforma IoTHINGS acompanhe em tempo real o perfil de consumo de suas instalações com rateio por máquinas e equipamentos bem como a produção de energia de suas plantas fotovoltaicas. Verifique se o seu contrato com a concessionária está adequado bem como receba do módulo de Inteligência Artificial.
+            Através da plataforma IoTHINGS acompanhe em tempo real o perfil de consumo de suas instalações com rateio por máquinas e equipamentos bem como a produção de energia de suas plantas fotovoltaicas.
           </p>
         </div>
 
-        <div className="mt-12 grid gap-20 max-w-2xl mx-auto lg:max-w-none">
+        <div className="mt-12 grid gap-10 max-w-2xl mx-auto lg:max-w-none">
           {LandingPageInfo.map((item, index) => (
             <div key={index} className={`flex  hover:scale-125 transition flex-col md:flex-row rounded-xl shadow-lg overflow-hidden ${index % 2 === 0 ? '' : 'md:flex-row-reverse'}`}>
               <div className="flex-shrink-0 md:w-1/3 transition">
