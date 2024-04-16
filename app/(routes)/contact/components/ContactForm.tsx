@@ -44,10 +44,10 @@ const ContactForm = () => {
 
  return (
 
-  <form onSubmit={handleSubmit} className="p-8 bg-blue-400/20 rounded-3xl shadow-lg">
+  <form onSubmit={handleSubmit} className="p-4 bg-blue-400/20 rounded-3xl shadow-lg">
   <div className="titleWrapper text-center">
-        <h2 className='text-2xl mb-5 font-semibold text-gray-300'>Entre em contato</h2>
-        <p className='text-gray-100'>Por favor preencha os campos abaixo para podermos entrar em contato.</p>
+        <h2 className='text-2xl mb-3 font-semibold text-gray-300'>Entre em contato</h2>
+        <p className='text-gray-100'>Preencha os campos abaixo para entrar em contato diretamente pelo site!</p>
       </div>
 
       <div className="flex flex-col gap-4 p-2">
@@ -69,7 +69,7 @@ const ContactForm = () => {
 
 
         <div className="flex flex-col">
-          <h3 className='text-gray-200 p-1'>Selecione um das Opçoes abaixo:</h3>
+          <h3 className='text-gray-200'>Selecione uma das Opçoes abaixo:</h3>
           <div className="flex flex-col gap-2">
             <div className="flex items-center">
               <input type="radio" id="budget" name="option" value="Budget" checked={formData.option === 'Budget'} onChange={handleChange}
@@ -94,13 +94,11 @@ const ContactForm = () => {
 
         <div className="flex flex-col">
           <label htmlFor="message" className="text-gray-200">Message:</label>
-          <textarea name="message" id="message" placeholder="Your Message" rows={6} cols={35} required
+          <textarea name="message" id="message" placeholder="Your Message" rows={5} cols={35} required
             className='bg-gray-400/30 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500' value={formData.message} onChange={handleChange}></textarea>
         </div>
 
-        <div >
           <input  type="submit" value="Submit" className="text-white bg-blue-900 font-bold rounded-md hover:bg-blue-500 hover:text-blue-800 p-2 text-center w-full"></input>
-        </div>
       </div>
     </form>
  )
