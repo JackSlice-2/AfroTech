@@ -1,14 +1,6 @@
 import DiscountButton from '@/app/components/DiscountButton'
 import React from 'react'
-import { FaWhatsapp, FaTelegramPlane, FaLock, FaEnvelope } from 'react-icons/fa';
-
-const ContactInfo = [
-    { icon: <FaWhatsapp />, label: 'WhatsApp', info: '+55 51 98559-0254', url: 'https://wa.me/5551985590254'},
-    { icon: <FaWhatsapp />, label: 'WhatsApp', info: '+55 51 98579-0398', url: 'https://wa.me/5551985790398'},
-    { icon: <FaTelegramPlane />, label: 'Telegram', info: '+55 51 98559-0254', url: 'https://t.me/AfroTech'},
-    { icon: <FaLock />, label: 'Signal', info: '+55 51 98559-0254', url: 'https://signal.org/'},
-    { icon: <FaEnvelope />, label: 'Email', info: 'AfroTech@proton.me', url: 'mailto'},
-];
+import { ContactInfo } from '@/app/data/textData/ComponentText'
 
 const ContactList = () => {
  return (

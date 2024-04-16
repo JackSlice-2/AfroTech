@@ -3,18 +3,11 @@ import React from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import Button from './Button';
+import { MenuItems } from '../data/textData/MainText';
 
 const Navbar: React.FC = () => {
 
   const router = useRouter()
-
-  const MenuItems = [
-    { name: 'Inicio', link: '/' },
-    { name: 'Serviços', link: '/services' },
-    { name: 'Projetos', link: '/projetos' },
-    { name: 'Sobre', link: '/about' },
-    { name: 'Contato', link: '/contact' },
-  ];
 
   return (
     <div className=''>
