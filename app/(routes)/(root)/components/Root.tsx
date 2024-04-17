@@ -12,7 +12,7 @@ const Root = () => {
     <div className="h-full w-full md:flex-row lg:flex-row xl:flex">
        
         <div className="flex flex-col justify-center gap-5 flex-1 w-full items-center md:p-10 lg:px-56 xl:px-56">
-          <h1 className="text-center text-4xl sm:text-6xl lg:text-6xl xl:text-6xl pt-10">
+          <h1 className="text-center text-4xl sm:text-6xl lg:text-6xl xl:text-6xl lg:pt-32 xl:pt-32">
             &rdquo;{RootText.title}&rdquo;
           </h1>
           <div className="flex items-center gap-3 justify-center">
