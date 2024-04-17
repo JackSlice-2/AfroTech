@@ -5,15 +5,20 @@ import { ImageTextCardText } from '@/app/data/textData/ComponentText'
 
 const ImageTextCard = () => {
   return (
-    <div className="h-screen w-full flex justify-center flex-col lg:flex-row xl:flex-row rounded-xl border-gray-200 border-x-2 px-3 bg-gray-500/20 hover:bg-gray-500/30 m-2 mt-3">
+    <div className="h-screen w-full flex flex-col-reverse lg:flex-row xl:flex-row justify-center rounded-xl border-gray-200 border-x-2 px-3 bg-gray-500/20 hover:bg-gray-500/30 m-2 mt-3 order-1 md:order-2 lg:order-2">
       <MacNPhones />
-        <div className="flex flex-col justify-center gap-3 lg:gap-10 xl:gap-10 flex-1 mx-10 md:mx-0 translate-x-8 order-1 px-5 md:px-0">
-          <h1 className="md:text-6xl text-4xl text-start">&rdquo;{ImageTextCardText.title}&rdquo;
+      
+        <div className="flex flex-col justify-center gap-3 lg:gap-10 xl:gap-10 flex-1 mx-10 md:mx-0 translate-x-8 order-2 md:order-1 lg:order-1 px-5 md:px-0">
+          <h1 className="md:text-6xl text-4xl text-start">
+          &rdquo;
+            {ImageTextCardText.title}
+          &rdquo;
           </h1>
             <div className="flex self-start gap-3">
               <div className="flex self-start gap-2 justify-center items-center">
                 <Image src="/img/line.png" alt="line" height={10} width={50} />
-                <h2 className="text-pink-400">{ImageTextCardText.pink}
+                <h2 className="text-pink-400">
+                  {ImageTextCardText.pink}
                 </h2>
               </div>            
             </div>

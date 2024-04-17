@@ -28,7 +28,6 @@ const Root = () => {
             more
             url='/about'
           />
-
           {/*SMALL SCREEN IMAGES */}
           <div className="relative p-10 lg:hidden xl:hidden">
             <Image src="/img/hacker7.png" alt="line" height={600} width={400}
