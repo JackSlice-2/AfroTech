@@ -3,7 +3,7 @@ import Navbar from '../../../components/Navbar';
 import ContactList from './ContactList';
 import ContactForm from './ContactForm';
 import { ToastContainer } from 'react-toastify';
-import { ContactText } from '@/app/data/textData/MainText';
+import { ContactTextPT } from '@/app/data/textData/PT/MainText';
 
 const Contact: React.FC = () => {
     return (
@@ -13,10 +13,10 @@ const Contact: React.FC = () => {
         <div className="relative flex justify-center items-center flex-col lg:px-20 xl:px-20">
         <div className="bg-blue-400/20 w-full rounded-3xl mx-10 px-20 text-center">
             <h2 className='text-4xl text-medium p-4 py-5'>
-              {ContactText.title}
+              {ContactTextPT.title}
               </h2>
             <p className='text-medium py-3 pb-6'>
-            {ContactText.subtitle}
+            {ContactTextPT.subtitle}
               </p>
         </div>
         <div className="w-full flex justify-center m-5 flex-col lg:flex-row xl:flex-row">

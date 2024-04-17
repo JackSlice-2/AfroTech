@@ -1,7 +1,7 @@
 import Navbar from '@/app/components/Navbar';
 import Image from 'next/image';
 import React from 'react';
-import { WebappsInfo, WebappsText } from '@/app/data/subServicesData/WebappsInfo';
+import { WebappsInfo, WebappsText } from '@/app/data/textData/PT/subServicesData/WebappsInfo';
 
 interface WebappsProps {
   props?: any;

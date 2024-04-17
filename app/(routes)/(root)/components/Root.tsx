@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../../../components/Navbar';
 import Image from 'next/image';
 import Button from '@/app/components/Button';
-import { RootText } from '@/app/data/textData/MainText';
+import { RootTextPT } from '@/app/data/textData/PT/MainText';
 
 const Root = () => {
   
@@ -13,18 +13,18 @@ const Root = () => {
        
         <div className="flex flex-col justify-center gap-5 flex-1 w-full items-center md:p-10 lg:px-56 xl:px-56">
           <h1 className="text-center text-4xl sm:text-6xl lg:text-6xl xl:text-6xl pt-10">
-            &rdquo;{RootText.title}&rdquo;
+            &rdquo;{RootTextPT.title} {}&rdquo;
           </h1>
           <div className="flex items-center gap-3 justify-center">
             <Image src="/img/line.png" alt="line" height={10} width={50} />
-              <h2 className="text-pink-400">{RootText.pink}</h2>
+              <h2 className="text-pink-400">{RootTextPT.pink}</h2>
             <Image src="/img/line.png" alt="line" height={10} width={50} />
           </div>
           <p className="text-2xl text-gray-300 text-center"> 
-          {RootText.description}
+          {RootTextPT.description}
           </p>
           <Button
-            label={RootText.buttonLabel}
+            label={RootTextPT.buttonLabel}
             more
             url='/about'
           />

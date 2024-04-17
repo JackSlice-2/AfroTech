@@ -1,8 +1,8 @@
 import React from 'react';
 import Navbar from '../../../components/Navbar';
 import Link from 'next/link';
-import { ServiceInfo } from '../../../data/textData/ComponentText';
-import { ServicesText } from '@/app/data/textData/MainText';
+import { ServiceInfo } from '../../../data/textData/PT/ComponentText';
+import { ServicesTextPT } from '@/app/data/textData/PT/MainText';
 
 const Services = () => {
  return (
@@ -11,12 +11,12 @@ const Services = () => {
     <div className="h-full w-full md:flex-row lg:flex-row xl:flex justify-center p-1">
       <div className="font-medium text-center">
         <h1 className='text-4xl'>
-          {ServicesText.title}
+          {ServicesTextPT.title}
         </h1>
         <div className='my-10'>
         <p className='p-5 text-xl bg-blue-800/20 rounded-2xl'>
-        {ServicesText.subtitle}<br/>
-        {ServicesText.subSubtitle}</p>
+        {ServicesTextPT.subtitle}<br/>
+        {ServicesTextPT.subSubtitle}</p>
         </div>
         <div 
           className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-10 pb-10 m-15 justify-center items-center">

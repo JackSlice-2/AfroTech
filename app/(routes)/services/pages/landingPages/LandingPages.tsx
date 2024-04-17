@@ -1,7 +1,7 @@
 import Navbar from '@/app/components/Navbar';
 import Image from 'next/image';
 import React from 'react';
-import { LandingPagesInfo, LandingPagesText } from '@/app/data/subServicesData/LandingPagesInfo';
+import { LandingPagesInfo, LandingPagesText } from '@/app/data/textData/PT/subServicesData/LandingPagesInfo';
 
 interface LandingPagesProps {
   props?: any;

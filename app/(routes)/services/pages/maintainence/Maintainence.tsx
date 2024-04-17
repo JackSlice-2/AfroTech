@@ -1,7 +1,7 @@
 import Navbar from '@/app/components/Navbar';
 import Image from 'next/image';
 import React from 'react';
-import { MaintainenceInfo, MaintainenceText } from '@/app/data/subServicesData/MaintainenceInfo';
+import { MaintainenceInfo, MaintainenceText } from '@/app/data/textData/PT/subServicesData/MaintainenceInfo';
 
 interface MaintainenceProps {
   props?: any;

@@ -1,7 +1,7 @@
 import MacNPhones from '@/app/components/MacNPhones'
 import Image from 'next/image'
 import React from 'react'
-import { TextImageCardText } from '@/app/data/textData/ComponentText'
+import { TextImageCardText } from '@/app/data/textData/PT/ComponentText'
 
 const TextImageCard = () => {
   return (

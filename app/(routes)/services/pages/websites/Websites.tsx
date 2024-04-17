@@ -1,7 +1,7 @@
 import Navbar from '@/app/components/Navbar';
 import Image from 'next/image';
 import React from 'react';
-import { WebsitesInfo, WebsitesText } from '@/app/data/subServicesData/WebsitesInfo';
+import { WebsitesInfo, WebsitesText } from '@/app/data/textData/PT/subServicesData/WebsitesInfo';
 
 interface WebsitesProps {
   props?: any;

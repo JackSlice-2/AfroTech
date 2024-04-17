@@ -1,7 +1,7 @@
 import Navbar from '@/app/components/Navbar';
 import Image from 'next/image';
 import React from 'react';
-import { DatabasesInfo, DatabasesText } from '@/app/data/subServicesData/DatabasesInfo';
+import { DatabasesInfo, DatabasesText } from '@/app/data/textData/PT/subServicesData/DatabasesInfo';
 
 interface DatabasesProps {
   props?: any;

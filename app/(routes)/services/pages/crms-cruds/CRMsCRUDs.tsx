@@ -1,7 +1,7 @@
 import Navbar from '@/app/components/Navbar';
 import Image from 'next/image';
 import React from 'react';
-import { CRMsCRUDsInfo, CRMsCRUDsText  } from '@/app/data/subServicesData/CRMsCRUDsInfo';
+import { CRMsCRUDsInfo, CRMsCRUDsText  } from '@/app/data/textData/PT/subServicesData/CRMsCRUDsInfo';
 
 interface ICRMsCRUDsProps {
   props?: any;
