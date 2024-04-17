@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Services.module.css */
+.servicesBackgroundLG {
+    background-image: url(/img/services.png);
+    background-size: 70rem;
+    background-repeat: no-repeat;
+    background-position: left 100px;
+    opacity: 0.2;
+   }
+   
+   @media (max-width: 640px) {
+    .servicesBackgroundLG {
+       background-image: none;
+    }
+   }
+   
+.servicesBackgroundSM {
+    background-image: url(/img/services.png);
+    background-size: 40rem;
+    background-repeat: no-repeat;
+    background-position: right 150px;
+    opacity: 0.2;
+}

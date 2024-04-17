@@ -10,7 +10,7 @@ const About: React.FC = () => {
       <Navbar />
       <div className="h-full w-full md:flex-row lg:flex-row xl:flex">
         <div className="flex flex-col justify-center flex-1 w-full md:p-10 lg:px-56 xl:px-56 gap-2">
-          <div className='text-center text-8xl text-medium lg:text-start xl:text-start'>
+          <div className='text-center text-6xl md:text-8xl  text-medium lg:text-start xl:text-start'>
                 <h1>{AboutText.title}</h1>
                 <h1>{AboutText.subtitle}</h1>
                 <h1>{AboutText.subSubtitle}</h1>
@@ -37,7 +37,7 @@ const About: React.FC = () => {
                 </div>
           </div>
             <div className='flex-2 flex flex-col justify-center lg:mr-32 xl:mr-32 py-4'>
-              <div className='w-96 h-96 pb-5 object-contain m-auto hover:scale-125 transition'>
+              <div className='w-96 h-96 pb-5 object-contain m-auto hover:scale-110 transition'>
               <Image src="/img/hacker6.png" alt='' width={800} height={800} className='rounded-3xl' />
             </div>
           </div>

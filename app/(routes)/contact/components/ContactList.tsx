@@ -4,7 +4,7 @@ import { ContactInfo } from '@/app/data/textData/ComponentText'
 
 const ContactList = () => {
  return (
-    <div className="w-full flex flex-col gap-4 px-8 py-5">
+    <div className="w-full flex flex-col gap-4 px-20 py-5">
       {ContactInfo.map((item, index) => (
         <a href={item.url}  key={index} target='_blank' id={item.label} >
         <div className="flex items-center p-4 rounded-xl bg-blue-400/20 hover:bg-blue-900/30 hover:text-blue-500 shadow-md cursor-pointer">

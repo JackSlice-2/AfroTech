@@ -93,8 +93,8 @@ const ContactForm = () => {
         </div>
 
         <div className="flex flex-col">
-          <label htmlFor="message" className="text-gray-200">Message:</label>
-          <textarea name="message" id="message" placeholder="Your Message" rows={5} cols={35} required
+          <label htmlFor="message" className="text-gray-200">Escreva sua Mensagem:</label>
+          <textarea name="message" id="message" placeholder="Sua Mensagem" rows={5} cols={30} required
             className='bg-gray-400/30 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500' value={formData.message} onChange={handleChange}></textarea>
         </div>
 
