@@ -4,6 +4,7 @@ import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import Button from './Button';
 import { MenuItems } from '../data/textData/MainText';
+import { LanguageButton } from './LanguageButton';
 
 const Navbar: React.FC = () => {
 
@@ -30,6 +31,7 @@ const Navbar: React.FC = () => {
             ))}
           </div>
         </div>
+        <LanguageButton />
         <div className='flex justify-end py-2'>
           <div className='p-1 flex justify-end'>
             <div className='p-1'>
