@@ -20,9 +20,11 @@ const Services = () => {
           {ServicesText.title}
         </h1>
         <div className='my-10'>
-        <p className='p-5 text-xl bg-blue-800/20 rounded-2xl'>
+        <div className='p-5 text-xl bg-blue-800/20 rounded-2xl'>
+        <div className='text-2xl p-1'>
         {ServicesText.subtitle}<br/>
-        {ServicesText.subSubtitle}</p>
+        </div>
+        {ServicesText.subSubtitle}</div>
         </div>
         <div 
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-10 pb-10 m-15 justify-center items-center align-middle">
