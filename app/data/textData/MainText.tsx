@@ -8,16 +8,16 @@ export const MenuItems = [
 ];
 
 export const RootText = {
-    title: 'Paciencia é a chave na resoluçao de problemas',
+    title: 'Paciência é a chave na resolução de problemas',
     pink: 'O que Fazemos',
-    description: 'Aqui, simplificamos o complexo e facilitamos sua jornada de negócios. Nos abraçamos as tendências e conquistamos o mundo online todos os dias. Está pronto para se destacar?',
-    buttonLabel: 'Saiba Mais',
+    description: 'Aqui, simplificamos o complexo e facilitamos sua jornada de negócios. Nos identificamos as tendências do momento e conquistamos o mundo virtual todos os dias. Está pronto para se virtualizar?',
+    buttonLabel: 'Descubra Como !',
   };
 
   export const ServicesText = {
-    title: 'Nossas Especialidades',
-    subtitle: 'Saiba como trabalhamos.',
-    subSubtitle: 'A distância entre você e um futuro digital está à um Clique.',
+    title: 'Especialidades da Casa',
+    subtitle: 'Descubra como nossos serviços podem transformar seu negócio',
+    subSubtitle: 'A distância entre você e um futuro digital está à alguns Cliques',
   };
   
   export const AboutText = {
@@ -27,7 +27,7 @@ export const RootText = {
     pink: 'Dificil Leva um Dia',
     pink2: 'O Impossivel, uma Semana',
     description: 'Diante de você, encontra-se uma equipe de exploradores implacáveis da empresa Afrotech. Somos pessoas com afinidade para desvendar as complexidades dos diversos desafios e erros estruturais do nosso mundo moderno. Conquistadores naturais de reinos inexplorados, prosperamos na aprendizagem perpétua, transformando o desconhecido em uma caixa de areia de possibilidades.',
-    buttonLabel: 'Chame Agora!',
+    buttonLabel: 'Contrate Agora !',
   };
 
   export const ContactText = {

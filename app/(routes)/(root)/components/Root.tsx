@@ -26,7 +26,7 @@ const Root = () => {
           <Button
             label={RootText.buttonLabel}
             more
-            url='/about'
+            url='/services'
           />
           {/*SMALL SCREEN IMAGES */}
           <div className="relative p-10 lg:hidden xl:hidden">
