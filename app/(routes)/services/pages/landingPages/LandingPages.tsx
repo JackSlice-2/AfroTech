@@ -21,11 +21,11 @@ const LandingPages: React.FC<LandingPagesProps> = ({props}) => {
             </p>
         </div>
 
-        <div className="mt-5 grid gap-10 max-w-2xl mx-auto lg:max-w-none p-10">
+        <div className="mt-5 grid gap-10 max-w-2xl mx-auto lg:max-w-none">
           {LandingPagesInfo.map((item, index) => (
             <div key={index} className={`flex  hover:scale-110 transition flex-col md:flex-row rounded-2xl shadow-lg overflow-hidden ${index % 2 === 0 ? '' : 'md:flex-row-reverse'}`}>
-              <div className="flex-shrink-0 md:w-1/3 transition">
-                <Image className="h-full w-full object-cover md:w-full" src={item.img} alt={item.title} width={10} height={10} />
+              <div className="flex-shrink-0 md:w-1/2 transition">
+                <Image className="h-full w-full md:w-full" src={item.img} alt={item.title} width={1000} height={1000} />
               </div>
               <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                 <div className="flex-1">
