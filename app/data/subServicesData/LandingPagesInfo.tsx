@@ -16,12 +16,12 @@ export const LandingPagesInfo = [
    {
       title: 'Otimização para SEO',
       description: 'A otimização para SEO (Search Engine Optimization) é crucial para as landing pages, pois permite que elas sejam mais facilmente encontradas pelos motores de busca. Isso é alcançado através da incorporação de palavras-chave relevantes, meta tags e descrições precisas, e uma estrutura de URL amigável. Ao otimizar suas landing pages para SEO, você pode atrair mais tráfego orgânico, melhorar a visibilidade do seu site e, consequentemente, aumentar as chances de conversão. A otimização para SEO também envolve garantir que o conteúdo da landing page seja informativo, envolvente e otimizado para dispositivos móveis, já que a experiência do usuário em dispositivos móveis afeta diretamente os rankings dos motores de busca.',
-      img: '/img/OtimizaçãoParaSEO.jpg',
+      img: '/img/OtimizaçãoParaSEO.png',
    },
    {
       title: 'Personalização',
       description: 'A personalização é uma estratégia poderosa para melhorar a experiência do usuário e aumentar as taxas de conversão nas landing pages. Ao adaptar o conteúdo, design e experiência do usuário com base nas preferências e comportamentos individuais dos visitantes, as empresas podem criar experiências mais relevantes e envolventes. Isso pode ser feito coletando e analisando dados sobre os visitantes, segmentando o público com base em critérios como idade, localização ou histórico de compras, e utilizando conteúdo dinâmico que muda em tempo real com base nas características ou comportamentos do visitante. A personalização não só melhora a experiência do usuário, mas também aumenta a probabilidade de conversão, pois os visitantes se sentem mais conectados e valorizados.',
-      img: '/img/Personalização.webp',
+      img: '/img/Personalização.png',
    },
    {
       title: 'Análise de Desempenho',
