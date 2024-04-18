@@ -1,6 +1,5 @@
 "use client";
 
-import Navbar from "@/app/components/Navbar";
 import Websites from "./components/Websites";
 
 const App: React.FC = (props) => {

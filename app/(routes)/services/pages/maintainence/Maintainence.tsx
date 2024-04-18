@@ -1,7 +1,7 @@
 import Navbar from '@/app/components/Navbar';
 import React from 'react';
 import { MaintainenceInfo, MaintainenceText } from '@/app/data/subServicesData/MaintainenceInfo';
-import ServiceModal from '../components/ServicesModal';
+import ServiceModal from '../../../../components/ServicesModal';
 
 interface MaintainenceProps {
   props?: any;

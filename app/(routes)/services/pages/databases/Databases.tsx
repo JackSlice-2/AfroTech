@@ -2,7 +2,7 @@ import Navbar from '@/app/components/Navbar';
 import Image from 'next/image';
 import React from 'react';
 import { DatabasesInfo, DatabasesText } from '@/app/data/subServicesData/DatabasesInfo';
-import ServiceModal from '../components/ServicesModal';
+import ServiceModal from '../../../../components/ServicesModal';
 
 interface DatabasesProps {
   props?: any;

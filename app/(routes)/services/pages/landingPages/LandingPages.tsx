@@ -1,7 +1,7 @@
 import Navbar from '@/app/components/Navbar';
 import React from 'react';
 import { LandingPagesInfo, LandingPagesText } from '@/app/data/subServicesData/LandingPagesInfo';
-import ServiceModal from '../components/ServicesModal';
+import ServiceModal from '../../../../components/ServicesModal';
 
 interface LandingPagesProps {
   props?: any;

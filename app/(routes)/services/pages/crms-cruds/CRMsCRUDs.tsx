@@ -2,7 +2,7 @@ import Navbar from '@/app/components/Navbar';
 import Image from 'next/image';
 import React from 'react';
 import { CRMsCRUDsInfo, CRMsCRUDsText  } from '@/app/data/subServicesData/CRMsCRUDsInfo';
-import ServiceModal from '../components/ServicesModal';
+import ServiceModal from '../../../../components/ServicesModal';
 
 interface ICRMsCRUDsProps {
   props?: any;

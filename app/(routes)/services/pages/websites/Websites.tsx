@@ -2,7 +2,7 @@ import Navbar from '@/app/components/Navbar';
 import Image from 'next/image';
 import React from 'react';
 import { WebsitesInfo, WebsitesText } from '@/app/data/subServicesData/WebsitesInfo';
-import ServiceModal from '../components/ServicesModal';
+import ServiceModal from '../../../../components/ServicesModal';
 
 interface WebsitesProps {
   props?: any;
