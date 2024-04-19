@@ -1,3 +1,8 @@
+export const CRMsCRUDsText = {
+   title: 'CRMs e CRUDs',
+   description: 'CRMs (Customer Relationship Management) são sistemas que ajudam as empresas a gerenciar e analisar interações e relacionamentos com clientes e potenciais clientes. Eles são projetados para melhorar a eficiência e a eficácia das vendas, marketing e atendimento ao cliente. CRUDs (Create, Read, Update, Delete), por outro lado, são operações fundamentais em programação que permitem a criação, leitura, atualização e exclusão de dados em um banco de dados. Essas operações são essenciais para o gerenciamento eficaz de dados em aplicações de software.',
+ }
+
 export const CRMsCRUDsInfo = [
  {
     title: 'Melhoria na Eficiência',
@@ -30,9 +35,3 @@ export const CRMsCRUDsInfo = [
     img: '/img/Automatização.png',
  },
 ];
-
-
-export const CRMsCRUDsText = {
-   title: 'CRMs e CRUDs',
-   description: 'CRMs (Customer Relationship Management) são sistemas que ajudam as empresas a gerenciar e analisar interações e relacionamentos com clientes e potenciais clientes. Eles são projetados para melhorar a eficiência e a eficácia das vendas, marketing e atendimento ao cliente. CRUDs (Create, Read, Update, Delete), por outro lado, são operações fundamentais em programação que permitem a criação, leitura, atualização e exclusão de dados em um banco de dados. Essas operações são essenciais para o gerenciamento eficaz de dados em aplicações de software.',
- }

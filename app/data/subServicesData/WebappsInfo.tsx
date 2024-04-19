@@ -1,29 +1,24 @@
 export const WebappsInfo = [
+   {
+      title: 'Diferença entre uma WebApp e um Website',
+      description: 'A principal diferença entre uma WebApp e um website é que uma WebApp é interativa, permitindo um maior engajamento do usuário com o aplicativo. Por exemplo, uma WebApp pode permitir que os usuários criem quadros para gerenciar tarefas, inserindo conteúdos de outras plataformas e oferecendo um serviço real para o usuário. Em contraste, um website é mais estático, servindo principalmente como um conjunto de páginas informativas que não permitem a adição de conteúdos pelos usuários ou a integração com outras aplicações sem a necessidade de acesso a outras plataformas.',
+      img: '/img/Diferença entre uma WebApp e um Website.png',
+   },
+   {
+      title: 'Tipo de Negócios que Precisam de uma WebApp',
+      description: 'Empresas que desejam alcançar um público amplo, oferecer uma experiência de usuário personalizada e eficiente, e que buscam uma solução de baixo custo e rápida implementação, se beneficiarão significativamente do uso de WebApps. Isso inclui empresas de e-commerce, redes sociais, plataformas de gerenciamento de tarefas, e qualquer outra indústria que possa se beneficiar de uma solução online acessível e eficaz. As WebApps são ideais para empresas que buscam inovar e oferecer uma experiência de qualidade para seus usuários, sem a necessidade de desenvolver aplicativos nativos para cada sistema operacional.',
+      img: '/img/Tipo de Negócios que Precisam de uma WebApp.png',
+   },
     {
-       title: 'Site ou Landing Page?',
-       description: 'A principal diferença entre uma landing page e um site normal reside na sua finalidade e estrutura. Uma landing page é projetada para ser rápida, direta e focada em uma ação específica, enquanto um site é mais abrangente, oferecendo informações detalhadas sobre a empresa e seus produtos ou serviços. A velocidade de uma landing page é crucial, pois ela deve ser carregada rapidamente para evitar que os visitantes abandonem a página antes de realizar a ação desejada.',
-       img: '/img/test.png/',
+       title: 'Desempenho',
+       description: 'As WebApps são totalmente ligadas à internet e dependem de um navegador web para o acesso dos usuários. Isso significa que elas podem ser mais rápidas e eficientes do que aplicativos nativos, que funcionam localmente. No entanto, é importante notar que aplicações web mais pesadas podem gerar lentidão no carregamento, diferentemente dos aplicativos desktop.',
+       img: '/img/Desempenho.jpg',
     },
     {
-       title: 'Conversão rápida',
-       description: 'A conversão rápida é uma das principais vantagens das landing pages, que são projetadas para focar em uma ação específica, como se inscrever em uma newsletter ou fazer uma compra. Esse foco direto permite que as landing pages aumentem significativamente a taxa de conversão em comparação com sites tradicionais, que podem ser mais genéricos e menos direcionados. Ao oferecer um caminho claro para a ação desejada, as landing pages podem incentivar os visitantes a tomar medidas imediatas, melhorando assim a eficácia das campanhas de marketing.',
-       img: '/img/test.png/',
-    },
-    {
-       title: 'Otimização para SEO',
-       description: 'A otimização para SEO (Search Engine Optimization) é crucial para as landing pages, pois permite que elas sejam mais facilmente encontradas pelos motores de busca. Isso é alcançado através da incorporação de palavras-chave relevantes, meta tags e descrições precisas, e uma estrutura de URL amigável. Ao otimizar suas landing pages para SEO, você pode atrair mais tráfego orgânico, melhorar a visibilidade do seu site e, consequentemente, aumentar as chances de conversão. A otimização para SEO também envolve garantir que o conteúdo da landing page seja informativo, envolvente e otimizado para dispositivos móveis, já que a experiência do usuário em dispositivos móveis afeta diretamente os rankings dos motores de busca.',
-       img: '/img/test.png/',
-    },
-    {
-       title: 'Personalização',
-       description: 'A personalização é uma estratégia poderosa para melhorar a experiência do usuário e aumentar as taxas de conversão nas landing pages. Ao adaptar o conteúdo, design e experiência do usuário com base nas preferências e comportamentos individuais dos visitantes, as empresas podem criar experiências mais relevantes e envolventes. Isso pode ser feito coletando e analisando dados sobre os visitantes, segmentando o público com base em critérios como idade, localização ou histórico de compras, e utilizando conteúdo dinâmico que muda em tempo real com base nas características ou comportamentos do visitante. A personalização não só melhora a experiência do usuário, mas também aumenta a probabilidade de conversão, pois os visitantes se sentem mais conectados e valorizados.',
-       img: '/img/test.png/',
-    },
-    {
-       title: 'Análise de Desempenho',
-       description: 'A análise de desempenho é uma ferramenta valiosa para entender como os visitantes interagem com suas landing pages e como essas interações afetam a eficácia das campanhas de marketing. Ao analisar dados como taxas de conversão, tempo gasto na página, páginas visitadas e comportamentos de clique, as empresas podem obter insights valiosos sobre o que funciona e o que pode ser melhorado. Isso permite que as empresas ajustem suas estratégias de marketing e otimização de landing pages com base em dados reais, melhorando assim a eficácia das campanhas e a experiência geral do usuário. A análise de desempenho é fundamental para o crescimento contínuo e o sucesso a longo prazo de qualquer negócio online.',
-       img: '/img/test.png/',
-    },
+       title: 'Flexibilidade',
+       description: 'Uma das principais vantagens das WebApps é a sua acessibilidade. Elas podem ser acessadas de qualquer dispositivo com uma conexão à internet, tornando-as ideais para empresas que desejam alcançar um público amplo. Isso contrasta com os aplicativos nativos, que geralmente requerem instalação em dispositivos específicosAs WebApps oferecem uma grande flexibilidade em termos de design e funcionalidade. Elas podem ser personalizadas para atender às necessidades específicas de uma empresa, permitindo que sejam adaptadas para diferentes setores e indústrias. Isso contrasta com os aplicativos nativos, que podem ser mais limitados em termos de personalização.',
+       img: '/img/Flexibilidade.jpg',
+    }
    ];
 
 

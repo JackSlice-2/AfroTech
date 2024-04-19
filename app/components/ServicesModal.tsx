@@ -27,7 +27,7 @@ const ServiceModal: React.FC<ServiceModalProps> = ({
           <h1 className="text-4xl font-extrabold tracking-tight text-gray-200 sm:text-5xl md:text-6xl pt-2">
           {mainTitle}
         </h1>
-        <p className="mt-3 max-w-md mx-auto text-base text-gray-300 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+        <p className="m-5 text-base text-gray-300 sm:text-lg md:text-xl lg:py-2">
           {mainDescription}
         </p>
       </div>
