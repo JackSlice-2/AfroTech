@@ -1,26 +1,25 @@
 import Navbar from '@/app/components/Navbar';
-import Image from 'next/image';
 import React from 'react';
-import { CRMsCRUDsInfo, CRMsCRUDsText  } from '@/app/data/subServicesData/CRMsCRUDsInfo';
+import { CRMsInfo, CRMsText  } from '@/app/data/subServicesData/CRMsInfo';
 import ServiceModal from '../../../../components/ServicesModal';
 
-interface ICRMsCRUDsProps {
+interface ICRMsProps {
   props?: any;
 }
 
-const CRMsCRUDs: React.FC<ICRMsCRUDsProps> = (props) => {
+const CRMs: React.FC<ICRMsProps> = (props) => {
   return (
     <div className="flex flex-col justify-center items-center px-4 py-8 md:px-8">
     <Navbar />
     <div className="max-w-7xl mx-auto p-4 sm:px-6 lg:px-8 rounded-3xl bg-gray-100/10">
      <ServiceModal
-        mainTitle={CRMsCRUDsText.title}
-        mainDescription={CRMsCRUDsText.description}
-        items={CRMsCRUDsInfo}
+        mainTitle={CRMsText.title}
+        mainDescription={CRMsText.description}
+        items={CRMsInfo}
      />
     </div>
   </div>
   );
  };
 
-export default CRMsCRUDs;
+export default CRMs;

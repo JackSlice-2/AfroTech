@@ -1,12 +1,12 @@
-export const CRMsCRUDsText = {
-   title: 'CRMs e CRUDs',
-   description: 'CRMs (Customer Relationship Management) são sistemas que ajudam as empresas a gerenciar e analisar interações e relacionamentos com clientes e potenciais clientes. Eles são projetados para melhorar a eficiência e a eficácia das vendas, marketing e atendimento ao cliente. CRUDs (Create, Read, Update, Delete), por outro lado, são operações fundamentais em programação que permitem a criação, leitura, atualização e exclusão de dados em um banco de dados. Essas operações são essenciais para o gerenciamento eficaz de dados em aplicações de software.',
+export const CRMsText = {
+   title: 'CRMs',
+   description: 'CRMs (Customer Relationship Management) são sistemas que ajudam as empresas a gerenciar e analisar interações e relacionamentos com clientes e potenciais clientes. Eles são projetados para melhorar a eficiência e a eficácia das vendas, marketing e atendimento ao cliente. Essas operações são essenciais para o gerenciamento eficaz de dados em aplicações de software.',
  }
 
-export const CRMsCRUDsInfo = [
+export const CRMsInfo = [
  {
     title: 'Melhoria na Eficiência',
-    description: 'A adoção de CRMs e CRUDs traz uma melhora significativa na eficiência operacional das empresas. Através da automatização de processos e da gestão eficiente de dados, as empresas podem reduzir o tempo gasto em tarefas manuais, aumentar a produtividade e otimizar os recursos. Isso permite que as empresas se concentrem em atividades mais estratégicas, como o desenvolvimento de novos produtos ou aprimoramento de serviços, em vez de gastarem tempo e recursos em tarefas repetitivas e desnecessárias.',
+    description: 'A adoção de CRMs traz uma melhora significativa na eficiência operacional das empresas. Através da automatização de processos e da gestão eficiente de dados, as empresas podem reduzir o tempo gasto em tarefas manuais, aumentar a produtividade e otimizar os recursos. Isso permite que as empresas se concentrem em atividades mais estratégicas, como o desenvolvimento de novos produtos ou aprimoramento de serviços, em vez de gastarem tempo e recursos em tarefas repetitivas e desnecessárias.',
     img: '/img/MelhoriaNaEficiência.jpg',
  },
  {

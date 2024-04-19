@@ -30,9 +30,9 @@ export const MaintainenceInfo = [
        img: '/img/Manutenção de Banco de Dados: Integridade e Desempenho.avif',
     },
     {
-       title: 'Manutenção de CRM e CRUDs: Eficiência Operacional e Experiência do Usuário',
-       description: 'A manutenção de sistemas de gerenciamento de relacionamento com o cliente (CRM) e operações de criação, leitura, atualização e exclusão (CRUDs) é crucial para melhorar a eficiência operacional e a experiência do usuário. Isso pode envolver a atualização de software CRM, a otimização de processos CRUD e a garantia de que os sistemas estejam configurados corretamente para atender às necessidades específicas do negócio. A manutenção de CRM e CRUDs ajuda a garantir que os sistemas estejam funcionando de maneira eficiente, melhorando a produtividade e a satisfação do cliente. Além disso, a manutenção proativa desses sistemas pode ajudar a identificar e corrigir problemas antes que eles afetem significativamente as operações do negócio',
-       img: '/img/Manutenção de CRM e CRUDs: Eficiência Operacional e Experiência do Usuário.webp',
+       title: 'Manutenção de CRM: Eficiência Operacional e Experiência do Usuário',
+       description: 'A manutenção de sistemas de gerenciamento de relacionamento com o cliente (CRM) é crucial para melhorar a eficiência operacional e a experiência do usuário. Isso pode envolver a atualização de software CRM, a otimização de processos e a garantia de que os sistemas estejam configurados corretamente para atender às necessidades específicas do negócio. A manutenção de CRM ajuda a garantir que os sistemas estejam funcionando de maneira eficiente, melhorando a produtividade e a satisfação do cliente. Além disso, a manutenção proativa desses sistemas pode ajudar a identificar e corrigir problemas antes que eles afetem significativamente as operações do negócio',
+       img: '/img/Manutenção de CRM: Eficiência Operacional e Experiência do Usuário.png',
     },
     {
        title: 'Mudanças Físicas no Site ou Informações: Atualizações de Conteúdo e Informações',
