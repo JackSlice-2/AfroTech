@@ -1,6 +1,6 @@
 "use client";
 
-import Databases from "./Databases";
+import Consult from "./Consult";
 
 const App: React.FC = (props) => {
   return (
@@ -23,7 +23,7 @@ background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
             }
           `}
         </style>
-        <Databases />
+        <Consult />
       </div>
     </>
   );

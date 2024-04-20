@@ -1,6 +1,8 @@
 "use client";
 
-import Websites from "./components/Websites";
+import Navbar from "@/app/components/Navbar";
+import TextImageCard from "@/app/components/TextImageCard";
+import ImageTextCard from "@/app/components/ImageTextCard";
 
 const App: React.FC = (props) => {
   return (
@@ -22,8 +24,13 @@ background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
             }
           `}
         </style>
-      <Websites />
-    </div>
+        <section className="h-screen flex flex-col justify-between items-center">
+      <Navbar />
+      <div className='justify-center items-center mx-72 md:mx-40'>
+        <TextImageCard />
+        <ImageTextCard />
+      </div>
+    </section>    </div>
   );
 }
 

@@ -4,7 +4,7 @@ export const DiscountButtonText = {
   paymentMethods: ['BTC(Bitcoin) ', ' XMR(Monero) ', ' MATIC(Polygon) ', ' BNB(BinanceCoin)'],
 };
 
-import { FaWhatsapp, FaTelegramPlane, FaLock, FaEnvelope } from 'react-icons/fa';
+import { FaWhatsapp, FaTelegramPlane, FaLock, FaEnvelope, FaUserFriends } from 'react-icons/fa';
 
 export const ContactInfo = [
   { icon: <FaWhatsapp />, label: 'WhatsApp', info: '+55 51 98559-0254', url: 'https://wa.me/5551985590254'},
@@ -14,10 +14,10 @@ export const ContactInfo = [
   { icon: <FaEnvelope />, label: 'Email', info: 'AfroTech@proton.me', url: 'mailto'},
 ];
 
-import { Home, Globe, Database, Clipboard, Wrench, AppWindow } from 'lucide-react';
+import { Home, Globe, Clipboard, Wrench, AppWindow } from 'lucide-react';
 
 export const ServiceInfo = [
-  { icon: <Home />, label: 'Landing Page', 
+  { icon: <Home />, label: 'Landing Page',
   description: 'Páginas de destino rápidas e simples, para capturar clientes com um clique!', 
   url: '/services/pages/landingPages' },
   { icon: <Globe />, label: 'Websites', 
@@ -26,9 +26,9 @@ export const ServiceInfo = [
   { icon: <AppWindow />, label: 'WebApps', 
   description: 'Aplicativos completos no navegador, para interação, criação e uso.', 
   url: '/services/pages/webapps' },
-  { icon: <Database />, label: 'Banco de Dados', 
-  description: 'Gestão, manutenção e criação de bancos de dados para otimização.', 
-  url: '/services/pages/databases' },
+  { icon: <FaUserFriends />, label: 'Consultoria para Iniciantes', 
+  description: 'Nos entendemos que nem todos tem conhecimento tecnico, e temos um setor decicado a auxilaiar o desenvolvimento.', 
+  url: '/services/pages/consult' },
   { icon: <Clipboard />, label: 'CRMs', 
   description: 'Sistemas eficientes de gerenciamento de clientes e dados.', 
   url: '/services/pages/crms' },

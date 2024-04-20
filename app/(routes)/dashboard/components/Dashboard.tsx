@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../../../components/Navbar';
 import useMessages from '../../../hooks/useMessages';
 
 interface Message {
@@ -28,8 +27,6 @@ const Dashboard = () => {
  }
  
  return (
-    <div className="flex flex-col justify-center items-center px-2">
-      <Navbar />
       <div className="h-full w-3/4">
         <h1 className="text-2xl font-bold mb-4 text-center justify-center">Messages:</h1>
         <div className="space-y-4">
@@ -45,7 +42,6 @@ const Dashboard = () => {
           ))}
         </div>
       </div>
-    </div>
  );
 };
 

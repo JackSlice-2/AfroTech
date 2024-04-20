@@ -1,5 +1,6 @@
 "use client";
 
+import Navbar from "@/app/components/Navbar";
 import Dashboard from "./components/Dashboard";
 
 const App: React.FC = (props) => {
@@ -22,8 +23,12 @@ background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
             }
           `}
         </style>
+        <div className="flex flex-col justify-center items-center px-2">
+      <Navbar />
       <Dashboard />
     </div>
+    </div>
+
   );
 }
 
