@@ -14,22 +14,22 @@ export const ContactInfo = [
   { icon: <FaEnvelope />, label: 'Email', info: 'AfroTech@proton.me', url: 'mailto'},
 ];
 
-import { Home, Globe, Clipboard, Wrench, AppWindow } from 'lucide-react';
+import { Home, Globe, Clipboard, Wrench, AppWindow, BrushIcon } from 'lucide-react';
 
 export const ServiceInfo = [
-  { icon: <Home />, label: 'Landing Page',
-  description: 'Páginas de destino rápidas e simples, para capturar clientes com um clique!', 
-  url: '/services/pages/landingPages' },
   { icon: <Globe />, label: 'Websites', 
   description: 'Sites completos projetados para informar e/ou capturar usuários.', 
   url: '/services/pages/websites' },
-  { icon: <AppWindow />, label: 'WebApps', 
-  description: 'Aplicativos completos no navegador, para interação, criação e uso.', 
-  url: '/services/pages/webapps' },
   { icon: <FaUserFriends />, label: 'Consultoria para Iniciantes', 
   description: 'Nos entendemos que nem todos tem conhecimento tecnico, e temos um setor decicado a auxilaiar o desenvolvimento.', 
   url: '/services/pages/consult' },
-  { icon: <Clipboard />, label: 'CRMs', 
+  { icon: <BrushIcon />, label: 'Design Gráphico',
+  description: 'Temos uma equipe de design personalizados para sites, aplicativos e marcas.', 
+  url: '/services/pages/graficDesign' },
+  { icon: <AppWindow />, label: 'WebApps',
+  description: 'Aplicativos completos no navegador, para interação, criação e uso.', 
+  url: '/services/pages/webapps' },
+  { icon: <Clipboard />, label: 'CRMs',
   description: 'Sistemas eficientes de gerenciamento de clientes e dados.', 
   url: '/services/pages/crms' },
   { icon: <Wrench />, label: 'Manutenção', 

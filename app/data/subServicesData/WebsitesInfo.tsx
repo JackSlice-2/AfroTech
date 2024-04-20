@@ -20,10 +20,10 @@ export const WebsitesInfo = [
        img: '/img/EstratégiasDeConteúdoParaSites.jpg',
     },
     {
-       title: 'Como Escolher o Tipo Certo de Site para o Seu Negócio',
-       description: 'A escolha do tipo de site (por exemplo, blog, e-commerce, portfólio) deve ser baseada nas necessidades específicas do seu negócio. Um site de e-commerce é ideal para vendas online, enquanto um blog pode ser usado para compartilhar informações e insights sobre o setor. Um portfólio é perfeito para mostrar o trabalho de design ou fotografia, e um site corporativo pode servir como um hub central para informações da empresa. A escolha do tipo certo de site pode ter um impacto significativo na eficácia das suas estratégias de marketing e na experiência do usuário',
-       img: '/img/ComoEscolherOTipoCertoDeSiteParaOSeuNegócio.jpg',
-    },
+      title: 'Site ou Landing Page?',
+      description: 'A principal diferença entre uma landing page e um site normal reside na sua finalidade e estrutura. Uma landing page é projetada para ser rápida, direta e focada em uma ação específica, enquanto um site é mais abrangente, oferecendo informações detalhadas sobre a empresa e seus produtos ou serviços. A velocidade de uma landing page é crucial, pois ela deve ser carregada rapidamente para evitar que os visitantes abandonem a página antes de realizar a ação desejada.',
+      img: '/img/SiteouLandingPage.png',
+   },
     {
      title: 'Como um Site Pode Apoiar o Marketing Digital',
      description: 'Integrar um site com outras estratégias de marketing digital, como SEO, mídias sociais e email marketing, pode ampliar o alcance e a eficácia do seu marketing. Um site otimizado para SEO pode atrair tráfego orgânico, enquanto as mídias sociais podem ser usadas para promover conteúdo do site e interagir com os clientes. O email marketing pode ser usado para enviar informações diretamente aos clientes, e a integração de todas essas estratégias pode criar um marketing digital integrado e eficaz que aumenta a visibilidade da sua marca e impulsiona o crescimento do negócio',
