@@ -1,24 +1,35 @@
-import React from 'react'
-import Button from './Button'
+import React from 'react';
+import Button from './Button';
+import Image from 'next/image'; // Import the Image component
 
 const MacNPhones = () => {
-  return (
+ return (
     <div className="flex-1 relative px-10">
-        <img 
-          className='lg:w-[800px] lg:h-[700px] md:w-[425px] h-[350px] w-[318px] h-[262px] object-contain absolute inset-0 mx-auto bottom-10 lg:bottom-0 xl:bottom-0 p-2' 
-         src="./img/MacRS.png"
+      <div className="absolute inset-0 mx-5 bottom-10 lg:bottom-0 xl:bottom-0 p-2">
+        <Image
+          src="/img/MacRS.png" // Adjust the path as necessary
+          alt="MacRS"
+          layout="fill"
+          objectFit="contain"
+          className="lg:w-[800px] lg:h-[700px] md:w-[425px] w-[318px] h-[262px]"
         />
-        <img 
-          className='lg:w-[640px] lg:h-[320px] h-[180px] top-32 object-contain absolute inset-0 mx-auto lg:top-96 left-64 md:left-96 lg:left-96' 
-          src="./img/IphoneRS.png"
+      </div>
+      <div className="absolute inset-0 mx-5 lg:mb-20 lg:top-80 left-64 md:left-96 lg:left-96">
+        <Image
+          src="/img/IphoneRS.png" // Adjust the path as necessary
+          alt="IphoneRS"
+          layout="fill"
+          objectFit="contain"
+          className="lg:w-[640px] lg:h-[320px] h-[180px]"
         />
-        <Button label='Testa o Demo!'
+      </div>
+      <Button label='Testa o Demo!'
         url='https://kycnot.me/'
         live={true}
         newTab={true}
-        />
+      />
     </div>
-  )
-}
+ );
+};
 
-export default MacNPhones
+export default MacNPhones;
