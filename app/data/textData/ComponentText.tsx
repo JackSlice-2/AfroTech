@@ -26,7 +26,7 @@ export const ServiceInfo = [
   url: '/services/pages/consult' },
   { icon: <BsGoogle />, label: 'Google Ads',
   description: 'Criamos campanhas no Google para exibir anúncios específicos para seu público-alvo e converetê-los em clientes.', 
-  url: '/services/pages/graficDesign' },
+  url: '/services/pages/googleAds' },
   { icon: <AppWindow />, label: 'WebApps',
   description: 'Aplicativos completos no navegador, para interação, criação e uso.', 
   url: '/services/pages/webapps' },

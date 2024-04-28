@@ -1,29 +1,19 @@
 export const ConsultInfo = [
     {
-       title: 'Benefícios de um Banco de Dados Personalizado',
-       description: 'Um banco de dados personalizado oferece uma série de vantagens significativas para as empresas, especialmente em termos de flexibilidade, desempenho e integração. A personalização permite que as empresas ajustem o banco de dados para atender às suas necessidades específicas, otimizando a estrutura de dados para melhorar a eficiência e a velocidade de processamento. Além disso, um banco de dados personalizado pode ser mais facilmente integrado com outros sistemas e aplicativos existentes, facilitando a troca de dados e a coordenação de operações. Isso resulta em uma experiência de usuário mais fluida e uma operação de negócios mais eficiente.',
+       title: 'Acesso a conhecimentos especializados',
+       description: 'Ao se unirem a consultores experientes, os empreendedores iniciantes têm acesso a uma ampla variedade de conhecimentos. Desde como fazer o negócio crescer até estratégias de marketing e gerenciamento de dinheiro, esses consultores oferecem orientação valiosa. Isso ajuda os iniciantes a tomar decisões melhores e mais informadas, evitando erros comuns e acelerando seu progresso rumo ao sucesso.',
        img: '/img/BenefíciosDeUmBancoDeDadosPersonalizado.png',
     },
     {
-       title: 'Automatização e Banco de Dados',
-       description: 'A automatização desempenha um papel crucial na gestão de bancos de dados, permitindo que as empresas reduzam erros manuais, aumentem a eficiência operacional e economizem tempo e recursos. Através da automatização, as empresas podem automatizar tarefas repetitivas, como backups de dados, monitoramento de desempenho e atualizações de software, garantindo que o banco de dados permaneça seguro, atualizado e otimizado. Isso não apenas melhora a eficiência operacional, mas também reduz o risco de erros humanos que podem levar à perda de dados ou a interrupções no serviço.',
+       title: 'Economia de tempo e recursos',
+       description: 'Quando empreendedores iniciantes contam com consultores experientes, eles conseguem poupar um tempo valioso e recursos preciosos. Isso acontece porque esses consultores oferecem orientação direta e prática, ajudando os iniciantes a evitar a necessidade de aprender por tentativa e erro. Com sua experiência, os consultores apontam caminhos mais eficientes e estratégicos, permitindo que os empreendedores concentrem seus esforços onde realmente importa. Essa economia de tempo e recursos não apenas acelera o progresso, mas também permite que os iniciantes se concentrem em construir um negócio sólido e bem-sucedido.',
        img: '/img/AutomatizaçãoEBancoDeDados.jpg',
     },
     {
-       title: 'Banco de Dados em Nuvem vs. Local',
-       description: 'A escolha entre um banco de dados em nuvem e uma solução local depende de uma série de fatores, incluindo custo, escalabilidade, segurança e acessibilidade. Bancos de dados em nuvem, como os oferecidos pela Amazon Web Services (AWS), oferecem a vantagem de escalabilidade instantânea, facilidade de manutenção e acesso global, tornando-os ideais para empresas que precisam de flexibilidade e que desejam minimizar os custos de infraestrutura. Por outro lado, soluções locais podem oferecer maior controle sobre os dados e podem ser mais adequadas para empresas com requisitos de segurança ou regulatórios específicos que exigem que os dados permaneçam dentro de suas instalações.',
+       title: 'Redução de erros comuns',
+       description: 'Nós acreditamos que os consultores são como guias confiáveis para os empreendedores iniciantes. Eles compartilham suas experiências e conhecimentos para ajudar nossos clientes a evitar os mesmos erros que muitos outros já cometeram. Ao seguir os conselhos simples e as estratégias comprovadas por esses mentores experientes, nossos clientes podem navegar por um caminho mais suave em direção ao sucesso, com a confiança de que estão evitando os obstáculos que poderiam atrapalhar seu progresso.',
        img: '/img/BancoDeDadosEmNuvemVsLocal.jpg',
-    },
-    {
-       title: 'Amazon Web Services (AWS)',
-       description: 'Amazon Web Services (AWS) é uma plataforma de serviços de computação em nuvem que oferece uma ampla gama de produtos e serviços para ajudar empresas a construir, executar e escalar aplicações. A AWS oferece uma variedade de serviços, incluindo computação, armazenamento, bancos de dados, análise, aplicativos móveis, desenvolvimento de jogos, Internet das Coisas (IoT), segurança, análise e muito mais. A plataforma é conhecida por sua escalabilidade, confiabilidade e flexibilidade, permitindo que as empresas ajustem seus recursos conforme necessário para atender às demandas de negócios. A AWS também oferece uma ampla gama de ferramentas e serviços para ajudar as empresas a gerenciar e proteger seus dados, garantindo que elas possam operar de forma segura e eficiente.',
-       img: '/img/AmazonWebServices AWS.png',
-    },
-    {
-       title: 'REST API',
-       description: 'REST (Representational State Transfer) é um estilo de arquitetura de software que define um conjunto de restrições a serem usadas para criar serviços web. Uma REST API é uma interface que permite a comunicação entre diferentes sistemas usando o protocolo HTTP. As APIs REST são baseadas em recursos, o que significa que os dados são organizados em recursos, como usuários, produtos ou pedidos, e as operações são realizadas sobre esses recursos usando métodos HTTP padrão, como GET, POST, PUT e DELETE. As APIs REST são amplamente utilizadas devido à sua simplicidade, escalabilidade e eficiência. Elas permitem que as empresas criem aplicações que podem se comunicar com outras aplicações ou serviços de maneira eficiente, facilitando a integração e a colaboração entre diferentes sistemas. A Amazon API Gateway, por exemplo, é um serviço totalmente gerenciado que facilita a criação, publicação, manutenção, monitoramento e segurança de APIs REST em qualquer escala, oferecendo recursos como gerenciamento de tráfego, suporte CORS, autorização e controle de acesso, limitação de taxa, monitoramento e gerenciamento de versão de API',
-       img: '/img/RestApi.png',
-    },
+    }
    ];
 
 
