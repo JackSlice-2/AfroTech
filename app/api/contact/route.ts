@@ -10,7 +10,8 @@ export async function POST(
         name,
         phone,
         option,
-        message
+        message,
+        createdAt
     } = body;
 
 
@@ -20,7 +21,8 @@ export async function POST(
             name,
             phone,
             option,
-            message
+            message,
+            createdAt
         }
     });
 

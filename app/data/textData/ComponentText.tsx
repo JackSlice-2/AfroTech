@@ -4,7 +4,7 @@ export const DiscountButtonText = {
   paymentMethods: ['BTC(Bitcoin) ', ' XMR(Monero) ', ' MATIC(Polygon) ', ' BNB(BinanceCoin)'],
 };
 
-import { FaWhatsapp, FaTelegramPlane, FaLock, FaEnvelope, FaUserFriends } from 'react-icons/fa';
+import { FaWhatsapp, FaTelegramPlane, FaLock, FaEnvelope, FaUserFriends, FaGooglePlus, FaGooglePlusSquare } from 'react-icons/fa';
 
 export const ContactInfo = [
   { icon: <FaWhatsapp />, label: 'WhatsApp', info: '+55 51 98559-0254', url: 'https://wa.me/5551985590254'},
@@ -14,7 +14,8 @@ export const ContactInfo = [
   { icon: <FaEnvelope />, label: 'Email', info: 'AfroTech@proton.me', url: 'mailto'},
 ];
 
-import { Home, Globe, Clipboard, Wrench, AppWindow, BrushIcon } from 'lucide-react';
+import { Globe, Clipboard, Wrench, AppWindow } from 'lucide-react';
+import { BsGoogle } from 'react-icons/bs';
 
 export const ServiceInfo = [
   { icon: <Globe />, label: 'Websites', 
@@ -23,8 +24,8 @@ export const ServiceInfo = [
   { icon: <FaUserFriends />, label: 'Consultoria para Iniciantes', 
   description: 'Nos entendemos que nem todos tem conhecimento tecnico, e temos um setor decicado a auxilaiar o desenvolvimento.', 
   url: '/services/pages/consult' },
-  { icon: <BrushIcon />, label: 'Design Gráphico',
-  description: 'Temos uma equipe de design personalizados para sites, aplicativos e marcas.', 
+  { icon: <BsGoogle />, label: 'Google Ads',
+  description: 'Criamos campanhas no Google para exibir anúncios específicos para seu público-alvo e converetê-los em clientes.', 
   url: '/services/pages/graficDesign' },
   { icon: <AppWindow />, label: 'WebApps',
   description: 'Aplicativos completos no navegador, para interação, criação e uso.', 
