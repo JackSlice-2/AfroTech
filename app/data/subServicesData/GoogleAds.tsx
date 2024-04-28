@@ -9,7 +9,7 @@ export const GoogleAdsInfo = [
       img: '/img/ConversãoRápida.png',
    },
    {
-      title: 'Otimização para SEO',
+      title: 'Economia de tempo e recursos',
       description: 'A otimização para SEO (Search Engine Optimization) é crucial para as landing pages, pois permite que elas sejam mais facilmente encontradas pelos motores de busca. Isso é alcançado através da incorporação de palavras-chave relevantes, meta tags e descrições precisas, e uma estrutura de URL amigável. Ao otimizar suas landing pages para SEO, você pode atrair mais tráfego orgânico, melhorar a visibilidade do seu site e, consequentemente, aumentar as chances de conversão. A otimização para SEO também envolve garantir que o conteúdo da landing page seja informativo, envolvente e otimizado para dispositivos móveis, já que a experiência do usuário em dispositivos móveis afeta diretamente os rankings dos motores de busca.',
       img: '/img/OtimizaçãoParaSEO.png',
    }

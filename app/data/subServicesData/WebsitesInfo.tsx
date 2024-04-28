@@ -16,7 +16,7 @@ export const WebsitesInfo = [
     },
     {
        title: 'Estratégias de Conteúdo para Sites',
-       description: 'Criar e publicar conteúdo relevante e envolvente é crucial para aumentar o engajamento dos visitantes e melhorar a experiência do usuário em um site. Isso inclui a criação de blogs, vídeos de demonstração de produtos, FAQs e conteúdo interativo que responde às necessidades e interesses dos clientes. Um site que oferece valor e informações úteis pode atrair e reter visitantes, aumentando a probabilidade de conversão e a lealdade da marca',
+       description: 'Nossa principal meta é estabelecer laços de confiança sólidos com os clientes, enquanto identificamos leads de alto potencial e impulsionamos as chances de conversão em vendas. Para isso, investigamos minuciosamente os concorrentes, compreendemos a fundo a dinâmica do seu negócio e estudamos de perto o comportamento do seu público-alvo. Com base nessa análise detalhada, desenvolvemos estratégias personalizadas e um plano estratégico cuidadosamente elaborado, visando alcançar resultados expressivos no menor prazo possível.',
        img: '/img/EstratégiasDeConteúdoParaSites.jpg',
     },
     {
@@ -26,7 +26,7 @@ export const WebsitesInfo = [
    },
     {
      title: 'Como um Site Pode Apoiar o Marketing Digital',
-     description: 'Integrar um site com outras estratégias de marketing digital, como SEO, mídias sociais e email marketing, pode ampliar o alcance e a eficácia do seu marketing. Um site otimizado para SEO pode atrair tráfego orgânico, enquanto as mídias sociais podem ser usadas para promover conteúdo do site e interagir com os clientes. O email marketing pode ser usado para enviar informações diretamente aos clientes, e a integração de todas essas estratégias pode criar um marketing digital integrado e eficaz que aumenta a visibilidade da sua marca e impulsiona o crescimento do negócio',
+     description: 'Integrar um site com outras estratégias de marketing digital, como SEO, Google Ads e email marketing, pode ampliar significativamente o alcance e a eficácia das suas iniciativas de marketing. Um site otimizado para SEO pode atrair tráfego orgânico, garantindo que sua presença online seja facilmente encontrada pelos usuários que estão buscando por produtos ou serviços relacionados ao seu negócio. O Google Ads, por sua vez, oferece uma maneira poderosa de alcançar usuários que estão ativamente buscando por produtos ou serviços específicos, permitindo que você exiba anúncios relevantes para seu público-alvo em resultados de pesquisa e em sites parceiros da rede do Google.',
      img: '/img/ComoUmSitePodeApoiarOMarketingDigital.jpg',
    },
 ];
