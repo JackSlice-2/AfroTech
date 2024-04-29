@@ -1,4 +1,3 @@
-import DiscountButton from '@/app/components/DiscountButton'
 import React from 'react'
 import { ContactInfo } from '@/app/data/textData/ComponentText'
 
@@ -18,7 +17,6 @@ const ContactList = () => {
         </div>
         </a>
       ))}
-      <DiscountButton />
     </div>
  )
 }

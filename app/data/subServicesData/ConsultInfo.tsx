@@ -1,3 +1,8 @@
+export const ConsultText = {
+   title: 'Consultoria para Iniciantes',
+   description: 'Na nossa empresa, oferecemos um serviço de consultoria simples e direto para empreendedores iniciantes. Nossos guias estão disponíveis para te orientar em todas as fases do processo, desde a concepção inicial do seu empreendimento até a atração de clientes e o crescimento do seu negócio. Nosso objetivo é simplificar cada etapa do caminho, permitindo que você se concentre no que realmente importa: transformar sua ideia em um negócio próspero e bem-sucedido.'
+ };
+
 export const ConsultInfo = [
     {
        title: 'Acesso a conhecimentos especializados',
@@ -16,8 +21,3 @@ export const ConsultInfo = [
     }
    ];
 
-
-export const ConsultText = {
-   title: 'Consultoria para Iniciantes',
-   description: 'Um banco de dados é uma coleção organizada de informações que podem ser acessadas, gerenciadas e atualizadas de forma eficiente. Ele permite que as empresas armazenem, recuperem, atualizem e analisem grandes volumes de dados de maneira estruturada e segura. Bancos de dados são fundamentais para o funcionamento de muitas empresas, pois facilitam a gestão de informações críticas, como dados de clientes, vendas, inventário e muito mais.'
- };

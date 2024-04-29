@@ -1,3 +1,8 @@
+export const MaintainenceText = {
+   title: 'Manutenção',
+   description: 'Uma página de destino (landing page) é uma página web independente, projetada especificamente para capturar a atenção dos visitantes e incentivá-los a realizar uma ação específica, como se inscrever em uma newsletter, fazer uma compra ou solicitar mais informações. Ela é focada em um objetivo único, geralmente relacionado a uma campanha de marketing, produto ou serviço específico.'
+ }
+
 export const MaintainenceInfo = [
     {
        title: 'Manutenção Web: Benefícios e Importância',
@@ -40,9 +45,3 @@ export const MaintainenceInfo = [
        img: '/img/Atualizações de Conteúdo e Informações.avif',
     },
    ];
-
-
-export const MaintainenceText = {
-   title: 'Maintainence',
-   description: 'Uma página de destino (landing page) é uma página web independente, projetada especificamente para capturar a atenção dos visitantes e incentivá-los a realizar uma ação específica, como se inscrever em uma newsletter, fazer uma compra ou solicitar mais informações. Ela é focada em um objetivo único, geralmente relacionado a uma campanha de marketing, produto ou serviço específico.'
- }
