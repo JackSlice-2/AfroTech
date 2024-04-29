@@ -1,8 +1,8 @@
 
 export const MenuItems = [
   { name: 'Inicio', link: '/' },
-  { name: 'Serviços', link: '/services' },
-  { name: 'Produtos', link: '/products' },
+  { name: 'Serviços', link: '/services' },/*
+  { name: 'Produtos', link: '/products' },*/
   { name: 'Sobre', link: '/about' },
   { name: 'Contato', link: '/contact' },
 ];
