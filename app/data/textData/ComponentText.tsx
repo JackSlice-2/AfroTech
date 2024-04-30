@@ -7,11 +7,11 @@ export const DiscountButtonText = {
 import { FaWhatsapp, FaTelegramPlane, FaLock, FaEnvelope, FaUserFriends, FaGooglePlus, FaGooglePlusSquare } from 'react-icons/fa';
 
 export const ContactInfo = [
-  { icon: <FaWhatsapp />, label: 'WhatsApp', info: '+55 51 98559-0254', url: 'https://wa.me/5551985590254'},
-  { icon: <FaWhatsapp />, label: 'WhatsApp', info: '+55 51 98579-0398', url: 'https://wa.me/5551985790398'},
-  { icon: <FaTelegramPlane />, label: 'Telegram', info: '+55 51 98559-0254', url: 'https://t.me/AfroTech'},
-  { icon: <FaLock />, label: 'Signal', info: '+55 51 98559-0254', url: 'https://signal.org/'},
-  { icon: <FaEnvelope />, label: 'Email', info: 'AfroTech@proton.me', url: 'mailto'},
+  { icon: <FaWhatsapp />, label: 'WhatsApp Atendimento', info: '+55 51 98579-0398', url: 'https://wa.me/5551985790398'},
+  { icon: <FaTelegramPlane />, label: 'Telegram Atendimento', info: '+55 51 98579-0398', url: 'https://t.me/AfroTech'},
+  { icon: <FaLock />, label: 'Signal Atendimento', info: '+55 51 98579-0398', url: 'https://signal.org/'},
+  { icon: <FaWhatsapp />, label: 'WhatsApp Support Técnico', info: '+55 51 98559-0254', url: 'https://wa.me/5551985590254'},
+  { icon: <FaEnvelope />, label: 'Email', info: 'afrotech_admin@proton.me', url: 'mailto:afrotech_admin@proton.me'},
 ];
 
 import { Globe, Clipboard, Wrench, AppWindow } from 'lucide-react';
