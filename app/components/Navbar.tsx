@@ -53,7 +53,7 @@ const Navbar: React.FC = () => {
           <Button 
             label='Contrate Agora!'
             red={true}
-            url='https://api.whatsapp.com/send?phone=5551985590254&text=Bom%20dia,%20tenho%20interesse%20de%20fazer%20um%20site%20ou%20applicativo%20para%20minha%20empresa'
+            url='https://api.whatsapp.com/send?phone=5551985790398&text=Bom%20dia,%20tenho%20interesse%20de%20fazer%20um%20site%20ou%20applicativo%20para%20minha%20empresa'
             newTab={true}
           />
         </div>

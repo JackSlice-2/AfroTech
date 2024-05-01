@@ -80,7 +80,7 @@ const ContactForm = () => {
             <div className="flex items-center">
               <input type="radio" id="tech" name="option" value="Tech Support" checked={formData.option === 'Tech Support'} onChange={handleChange}
                 className='mr-2'></input>
-              <label htmlFor="tech" className="text-gray-200">Support Técnico</label>
+              <label htmlFor="tech" className="text-gray-200">Suporte Técnico</label>
             </div>
 
             <div className="flex items-center">
@@ -98,7 +98,7 @@ const ContactForm = () => {
             className='bg-gray-400/30 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500' value={formData.message} onChange={handleChange}></textarea>
         </div>
 
-          <input  type="submit" value="Submit" className="text-white bg-blue-900 font-bold rounded-md hover:bg-blue-500 hover:text-blue-800 p-2 text-center w-full"></input>
+          <input  type="submit" value="Enviar" className="text-white bg-blue-900 font-bold rounded-md hover:bg-blue-500 hover:text-blue-800 p-2 text-center w-full"></input>
       </div>
     </form>
  )

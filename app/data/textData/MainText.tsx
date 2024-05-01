@@ -11,7 +11,7 @@ export const RootText = {
     title: 'Paciência é a chave na resolução de problemas',
     pink: 'O que Fazemos',
     description: 'Aqui, simplificamos o complexo e facilitamos sua jornada de negócios. Nos identificamos as tendências do momento e conquistamos o mundo virtual todos os dias. Está pronto para se virtualizar?',
-    buttonLabel: 'Descubra Como !',
+    buttonLabel: 'Descubra Como',
   };
 
   export const ServicesText = {
