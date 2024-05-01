@@ -27,7 +27,7 @@ export const RootText = {
     pink: 'Dificil Leva um Dia',
     pink2: 'O Impossivel, uma Semana',
     description: 'Diante de você, encontra-se uma equipe de exploradores implacáveis da empresa Afrotech. Somos pessoas com afinidade para desvendar as complexidades dos diversos desafios e erros estruturais do nosso mundo moderno. Conquistadores naturais de reinos inexplorados, prosperamos na aprendizagem perpétua, transformando o desconhecido em uma caixa de areia de possibilidades.',
-    buttonLabel: 'Contrate Agora !',
+    buttonLabel: 'Contrate Agora',
   };
 
   export const ContactText = {
