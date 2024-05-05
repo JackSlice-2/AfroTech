@@ -51,7 +51,7 @@ background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
           </div>
             
             
-            <div className='gap-10 grid lg:flex xl:flex justify-center lg:mr-40 xl:mr-32 pt-32 grid-row-2'>
+            <div className='gap-10 grid lg:flex xl:flex justify-center lg:mr-80 xl:mr-80 pt-32 grid-col-2'>
               <EmployeCards 
               name='Paulo Neto (P.C)'
               specialty='Desenvolvedor Senior'
