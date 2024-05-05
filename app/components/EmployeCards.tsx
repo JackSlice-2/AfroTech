@@ -31,7 +31,9 @@ const EmployeCards: React.FC<EmployeCardsProps> = ({ imageSrc, name, job, specia
       <p className="text-gray-400 p-1">Missão: {mission}</p>
       </div>
       <div className='text-center pt-5'>
+        <div className='pb-4'>
       <a href={linkedIn} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-white p-2 hover:bg-blue-600 px-20 rounded-full">LinkedIn</a>
+      </div>
       </div>
     </div>
   );

@@ -51,7 +51,7 @@ background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
           </div>
             
             
-            <div className='gap-5 flex-2 flex flex-row justify-center lg:mr-32 xl:mr-32 pt-32'>
+            <div className='gap-10 flex-2 flex flex-row justify-center lg:mr-32 xl:mr-32 pt-32'>
               <EmployeCards 
               name='Paulo Neto (P.C)'
               specialty='Desenvolvedor Senior'
@@ -61,7 +61,7 @@ background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
               imageSrc='/img/hacker6.png'
               />
               <EmployeCards 
-              name='Bia Nunes'
+              name='Bianca Nunes (Bia)'
               specialty='Analista de Marketing'
               job='Co-Fundadora & CMO'
               mission='Propagar e Divulgar'
@@ -84,12 +84,15 @@ background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
         </div>
         </div>
         <div 
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-10 pb-10 m-15 justify-center items-center align-middle">
+          className="grid grid-cols-1 gap-10 pb-10 m-15 justify-center items-center align-middle">
        {StepsInfo.map((item: any, index: any) => (
               <div key={index} 
               className="bg-blue-900/20 rounded-xl p-6 py-5 pb-10 transition-shadow duration-300 min-h-[200px] flex flex-col justify-between w-full">
                 <div>
-                <h2 className="text-2xl font-semibold my-7">{item.label}</h2>
+                <div className="flex justify-center items-center bg-blue-500 text-white rounded-full w-10 h-10">
+                  {item.step}
+                </div>
+                <h2 className="text-2xl font-semibold mb-4">{item.label}</h2>
                 <p className="text-gray-400/70 my-2 text-md">{item.description}</p>
                 </div>
               </div>
@@ -113,7 +116,7 @@ background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-10 pb-10 m-15 justify-center items-center align-middle">
        {qAInfo.map((item: any, index: any) => (
               <div key={index} 
-              className="bg-blue-400/20 rounded-md p-6 py-5 pb-10 transition-shadow duration-300 min-h-[200px] flex flex-col justify-between w-full">
+              className="bg-blue-400/20 rounded-md p-6 py-5 pb-10 transition-shadow duration-300 h-[400px] flex flex-col justify-between w-full">
                 <div>
                 <h2 className="text-xl font-semibold my-5">{item.label}</h2>
                 <p className="text-gray-400/70 my-2 text-md">{item.description}</p>

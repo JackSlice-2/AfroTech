@@ -1,7 +1,7 @@
 "use client";
 
 import Navbar from "@/app/components/Navbar";
-import { RootText, MainInfo } from "@/app/data/textData/MainText";
+import { RootText, MainInfo, MainSubInfo } from "@/app/data/textData/MainText";
 import Button from "@/app/components/Button";
 import Image from "next/image";
 import React from "react";
@@ -87,7 +87,9 @@ const App: React.FC = () => {
 
 <div className="h-full w-[85%] justify-center p-1">
       <div className="font-medium text-center pt-14">
-        <hr className="py-10 lg:hidden xl:hidden block"/>
+
+        <hr className="py-10"/>
+        
         <div>
         <div className='p-5 rounded-2xl'>
         <div className='text-5xl pb-10'>
@@ -95,22 +97,44 @@ const App: React.FC = () => {
         </div>
         </div>
         </div>
-        <div 
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-10 pb-10 m-15 justify-center items-center align-middle">
-       {MainInfo.map((item: any, index: any) => (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-10 m-15 justify-center items-center align-middle">
+          {MainInfo.map((item: any, index: any) => (
               <div key={index} 
-              className="bg-blue-900/20 rounded-3xl p-6 pb-10 transition-shadow duration-300 min-h-[200px] flex flex-col justify-between w-full">
-                <div className="flex justify-center text-blue-500">
-                <Image src={item.imageUrl} alt={item.label} width={1000} height={1000} className="hover:scale-105 rounded-3xl" 
-                 style={{ width: '100%', height: '100%' }} />
+              className="bg-blue-900/20 rounded-3xl p-4 pb-10 transition-shadow duration-300 min-h-[450px] flex flex-col justify-between w-full">
+                <div className="flex justify-center text-blue-500 relative lg:w-90 lg:h-72 xl:w-90 xl:h-72">
+                <Image src={item.imageUrl} alt={item.label} width={500} height={500} className="hover:scale-105 rounded-3xl"
+                 style={{ width: '100%', height: '100%' }} 
+                 />
                 </div>
                 <div>
-                <h2 className="text-lg font-semibold my-3 mt-5">{item.label}</h2>
-                <p className="text-gray-400 my-2 text-md">{item.description}</p>
+                  <h2 className="text-lg font-semibold my-5">{item.label}</h2>
+                  <p className="text-gray-400 my-5 text-md">{item.description}</p>
                 </div>
               </div>
             ))}
         </div>
+
+        <hr className="my-8 mt-16"/>
+
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-10 m-15 pt-10 justify-center items-center align-middle">
+          
+          {MainSubInfo.map((item: any, index: any) => (
+              <div key={index} 
+              className="bg-blue-900/20 rounded-3xl p-4 pb-10 transition-shadow duration-300 min-h-[450px] flex flex-col justify-between w-full">
+                <div className="flex justify-center text-blue-500 relative lg:w-90 lg:h-72 xl:w-90 xl:h-72">
+                <Image src={item.imageUrl} alt={item.label} width={500} height={500} className="hover:scale-105 rounded-3xl"
+                 style={{ width: '100%', height: '100%' }} 
+                 />
+                </div>
+                <div>
+                  <h2 className="text-lg font-semibold my-5">{item.label}</h2>
+                  <p className="text-gray-400 my-5 text-md">{item.description}</p>
+                </div>
+              </div>
+            ))}
+        </div>
+        
       </div>
     </div>
 
@@ -126,7 +150,6 @@ const App: React.FC = () => {
                 more
                 newTab
                 url='https://api.whatsapp.com/send?phone=5551985790398&text=Bom%20dia,%20tenho%20interesse%20de%20fazer%20um%20site%20ou%20applicativo%20para%20minha%20empresa.%20Poderia%20me%20ajudar?'
-                name={RootText.buttonLabel}
             />
     </div>
     </div>
