@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
         <div className='flex flex-row justify-center items-center gap-2 md:gap-4 lg:gap-7 pt-4 text-md font-medium'>
           {MenuItems.map((item) => (
             <a onClick={() => router.push(item.link)} key={item.name} href={item.link}>
-            <div className='p-1.5 cursor-pointer hover:scale-150 lg:hover:scale-100 md:hover:scale-100 xl:hover:scale-100 hover:text-medium hover:bg-blue-300/30 rounded-lg hover:text-blue-600'>
+            <div className='p-1.5 cursor-pointer transition hover:scale-150 lg:hover:scale-100 md:hover:scale-100 xl:hover:scale-100 hover:text-medium hover:bg-blue-300/30 rounded-lg hover:text-blue-600'>
               {item.name}
             </div>
             </a>
@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
             <div className='p-1'>
               <Button 
               iconBtn={true}
-              url='https://www.linkedin.com/in/pc-nunes-8a26a2248/'
+              url='http://www.linkedin.com/in/afrotech-tecnologia-a1ba04307'
               icon={<LinkedinIcon />}
               newTab={true}
               />

@@ -1,7 +1,7 @@
 "use client";
 
 import Navbar from "@/app/components/Navbar";
-import { RootText, MainInfo, MainSubInfo } from "@/app/data/textData/MainText";
+import { RootText, MainInfo, MainSubInfo, Dashboards } from "@/app/data/textData/MainText";
 import Button from "@/app/components/Button";
 import Image from "next/image";
 import React from "react";
@@ -101,9 +101,10 @@ const App: React.FC = () => {
           {MainInfo.map((item: any, index: any) => (
               <div key={index} 
               className="bg-blue-900/20 rounded-3xl p-4 pb-10 transition-shadow duration-300 min-h-[450px] flex flex-col justify-between w-full">
-                <div className="flex justify-center text-blue-500 relative lg:w-90 lg:h-72 xl:w-90 xl:h-72">
+                <div className="flex justify-center text-blue-500 relative 
+                h-[210px] lg:h-[290px] xl:h-[290px]">
                 <Image src={item.imageUrl} alt={item.label} width={500} height={500} className="hover:scale-105 rounded-3xl"
-                 style={{ width: '100%', height: '100%' }} 
+                 style={{ width: '100%', height: '100%' }}
                  />
                 </div>
                 <div>
@@ -113,6 +114,30 @@ const App: React.FC = () => {
               </div>
             ))}
         </div>
+
+        <div className="w-full my-10 py-10 bg-blue-900/20 rounded-3xl">
+          <div className="text-4xl pb-10">
+          Dashboards de Administração
+          </div>
+        <div className="grid grid-cols-1 md:px-30 md:p-52 lg:p-10 lg:grid-cols-3 xl:grid-cols-3 justify-center items-center align-middle">
+          {Dashboards.map((item: any, index: any) => (
+              <div key={index} 
+              className="p-4 pb-10 transition-shadow duration-300 flex flex-col justify-between">
+                <div className="flex justify-center text-blue-500 relative 
+                h-[210px] lg:h-[290px] xl:h-[290px]">
+                <Image src={item.imageUrl} alt={item.type} width={500} height={500} className="hover:scale-105 rounded-3xl"
+                 style={{ width: '100%', height: '100%' }}
+                 />
+                </div>
+                <div>
+                  <h2 className="text-lg font-semibold my-5">{item.type}</h2>
+                  <p className="text-gray-400 my-5 text-md">{item.description}</p>
+                </div>
+              </div>
+            ))}
+        </div>
+        </div>
+
 
         <hr className="my-8 mt-16"/>
 
@@ -148,8 +173,7 @@ const App: React.FC = () => {
     <Button
                 label={RootText.buttonLabel}
                 more
-                newTab
-                url='https://api.whatsapp.com/send?phone=5551985790398&text=Bom%20dia,%20tenho%20interesse%20de%20fazer%20um%20site%20ou%20applicativo%20para%20minha%20empresa.%20Poderia%20me%20ajudar?'
+                url='/contact'
             />
     </div>
     </div>

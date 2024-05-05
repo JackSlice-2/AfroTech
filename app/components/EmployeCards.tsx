@@ -1,4 +1,3 @@
-// Import necessary components and hooks from React and Next.js
 import React from 'react';
 import Image from 'next/image';
 
@@ -20,7 +19,7 @@ const EmployeCards: React.FC<EmployeCardsProps> = ({ imageSrc, name, job, specia
   height={200}
     src={imageSrc} 
     alt={name} 
-    className="rounded-2xl hover:scale-105 object-cover" 
+    className="rounded-2xl  transition hover:scale-105 object-cover" 
     style={{ width: '95%', height: '95%' }} 
   />
 </div>

@@ -11,8 +11,8 @@ export const RootText = {
     title: 'Paciência é a chave na resolução de problemas, mas não precisamos ser lentos no nosso crescimento digital.',
     pink: 'O que Fazemos',
     description: 'Aqui, simplificamos o complexo e facilitamos sua jornada de negócios. Nos identificamos as tendências do momento e conquistamos o mundo virtual todos os dias. Está pronto para transformar sua marca digital em uma experiência imersiva e interativa?',
-    subTitle: 'Transforme sua ideia em um negócio digital próspero.',
-    subPink: 'Estamos aqui para ajudar',
+    subTitle: 'Transforme sua ideia em um próspero negócio digital.',
+    subPink: 'Construa sua presença online com a AfroTech.',
     subDescription: 'Nossos especialistas estão aqui para ajudá-lo a construir uma estratégia digital robusta, otimizando sua presença online e maximizando o engajamento dos usuários. Descubra como podemos ajudá-lo a alcançar o sucesso online com soluções personalizadas e tecnologias inovadoras.',
     buttonLabel: 'Entre em Contato Já!',
     footTitle: 'Explore abaixo e descubra como podemos ajudar você a alcançar seus objetivos online!',
@@ -39,22 +39,27 @@ export const MainInfo = [
   label: 'Serviços de Advocacia',
   description: 'Um site de advocacia é uma ferramenta essencial para advogados e escritórios de advocacia que desejam aumentar sua visibilidade e atrair novos clientes.', 
   },
-  { imageUrl: "/img/Lojas de Games.jpeg",
-  label: 'Lojas de Games e Livros',
-  description: 'Uma loja virtual é essencial para lojas de games e livros que desejam expandir sua o alcançe pra um público mais jovem e antenado com o mundo digital.',
-  },
   { imageUrl: "/img/Corretoras de Imoveis.jpeg",
   label: 'Imobiliárias & Corretoras de Imóveis',
   description: 'Uma presença online para as corretoras auxilia a apresentação dos imóveis disponíveis, facilitando a busca e o contato com os clientes atraindo-o com fotos e informações detalhadas.', 
+  }
+]
+export const Dashboards = [
+  { 
+  imageUrl: "/img/Dashboard de Vendas.png",
+  type: 'Dashboard de Vendas',
+  description: 'O Dashboard de Vendas serve para monitorar e analisar o desempenho de vendas de uma empresa. Ele fornece informações valiosas sobre as vendas, como o volume de vendas, a receita gerada, e o desempenho dos produtos. Com um dashboard de vendas, é possível identificar tendências, avaliar o desempenho de vendas, e tomar decisões informadas para impulsionar o crescimento da empresa.',
+},
+{
+  imageUrl: "/img/Dashboard de Monitoramento.png",
+  type: 'Dashboard de Monitoramento',
+  description: 'O Dashboard de Monitoramento é uma ferramenta utilizada atravez de um aplicativo web para monitorar e analisar dados em tempo real. Ele fornece informações valiosas sobre o desempenho de sistemas, aplicativos, e processos, permitindo que os usuários tomem decisões informadas com base em dados atualizados. Com um dashboard de monitoramento, é possível identificar problemas, avaliar o desempenho, e otimizar a eficiência operacional.',
   },
-  { imageUrl: "/img/Escritorios de Serviços Financeiros.png",
-  label: 'Escritorios de Serviços Financeiros',
-  description: 'Um site com formas de contato, dicas e informações sobre a empresa para os clientes com um CRM integrado para gerenciar as informações coletadas de forma segura e organizada.',
-  },
-  { imageUrl: "/img/Escritorios de Contabilidades.jpeg",
-  label: 'Concessionárias de Veículos',
-  description: 'Uma loja virtual para concessionárias de veículos é uma ótima opção para quem deseja expandir o alcance de sua empresa, oferecendo uma experiência de compra e/locação fácil e segura.',
-  },
+  {
+  imageUrl: "/img/Dashboard de Relacionamento.png",
+  type: 'Dashboard de Relacionamento',
+  description: 'O Dashboard de Relacionamento é uma ferramenta utilizada para gerenciar e analisar o relacionamento com clientes e potenciais clientes. Ele fornece informações valiosas sobre o histórico de interações, as preferências dos clientes, e as oportunidades de vendas. Com um dashboard de relacionamento, é possível identificar tendências, avaliar o desempenho de vendas, e melhorar a experiência do cliente.',
+  }
 ];
 export const MainSubInfo = [
   { imageUrl: "/img/Treinamento e Suporte Técnico.png",
@@ -67,7 +72,7 @@ export const MainSubInfo = [
   },
   { imageUrl: "/img/Consultoria Gratuita de Negócios Digitais.png",
   label: 'Consultoria de Negócios Digitais Gratuita',
-  description: 'Nossa consultoria de negócios digitais é projetada para ajudá-lo a navegar pelo vasto mundo digital que está em constante evolução . Oferecemos orientação personalizada para ensinar e auxiliar a entender e implementar estratégias digitais que não apenas melhoram sua presença online, mas que também fortalecem sua marca, te conectando com o público certo. Com nossa ajuda, você pode transformar sua marca digital em uma força implacavél para o crescimento e a expansão do seu negócio.',
+  description: 'Nossa consultoria de negócios digitais é projetada para ajudá-lo a navegar pelo vasto mundo digital que está em constante evolução . Oferecemos orientação personalizada para ensinar e auxiliar a entender e implementar estratégias digitais que não apenas melhoram sua presença online, mas que também fortalecem sua marca. Com nossa ajuda, você pode transformar sua marca digital em uma força implacavél para o crescimento e a expansão do seu negócio.',
   }
 ];
 
