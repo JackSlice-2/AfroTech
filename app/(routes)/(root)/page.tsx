@@ -68,7 +68,6 @@ const App: React.FC = () => {
     <Image width={500} height={400} alt='' className='object-contain rounded-2xl mx-auto' src="/img/hacker9.png"/>
 </div>
 
-    {/* Text Container */}
     <div className="flex-1 w-full lg:w-2/3 xl:w-2/3 flex flex-col justify-center gap-5 items-center md:p-10 lg:px-52 xl:px-52">
         <h1 className="text-center justify-center text-4xl sm:text-6xl lg:text-6xl xl:text-6xl lg:pt-32 xl:pt-32">
             {RootText.subTitle}
