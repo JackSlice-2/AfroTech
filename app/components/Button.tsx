@@ -32,6 +32,7 @@ const Button: React.FC<ButtonProps> = ({
 > 
     <button 
     id={label}
+    aria-label={label}
     className={`transition font-medium rounded-lg hover:text-white'
 
         ${live ? 'w-[250px]' : 'w-auto'}

@@ -4,10 +4,9 @@ import Navbar from "@/app/components/Navbar";
 import { RootText, MainInfo } from "@/app/data/textData/MainText";
 import Button from "@/app/components/Button";
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 
-const App: React.FC = (props) => {
+const App: React.FC = () => {
   return (
     <>
       <div
@@ -127,6 +126,7 @@ const App: React.FC = (props) => {
                 more
                 newTab
                 url='https://api.whatsapp.com/send?phone=5551985790398&text=Bom%20dia,%20tenho%20interesse%20de%20fazer%20um%20site%20ou%20applicativo%20para%20minha%20empresa.%20Poderia%20me%20ajudar?'
+                name={RootText.buttonLabel}
             />
     </div>
     </div>
