@@ -75,7 +75,7 @@ const App: React.FC = () => {
         </h1>
         <div className="flex items-center gap-3 justify-center">
             <Image src="/img/line.png" alt="line" height={10} width={50} />
-            <h2 className="text-pink-400">{RootText.subPink}</h2>
+            <h2 className="text-pink-400 text-center">{RootText.subPink}</h2>
             <Image src="/img/line.png" alt="line" height={10} width={50} />
         </div>
         <p className="text-2xl text-gray-300 text-center"> 
