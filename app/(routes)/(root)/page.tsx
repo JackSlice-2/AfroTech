@@ -92,7 +92,7 @@ const App: React.FC = () => {
         
         <div>
         <div className='p-5 rounded-2xl'>
-        <div className='text-5xl pb-10'>
+        <div className='text-3xl md:text-4xl pb-10'>
         {RootText.footTitle}
         </div>
         </div>
