@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
             <div className='p-1'>
               <Button 
               iconBtn={true}
-              url='http://www.linkedin.com/in/afrotech-tecnologia-a1ba04307'
+              url='https://www.linkedin.com/company/afrotech-pro/'
               icon={<LinkedinIcon />}
               newTab={true}
               />
