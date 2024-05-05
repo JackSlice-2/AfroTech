@@ -34,13 +34,13 @@ background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
             <h2 className='text-4xl text-medium p-4 py-5'>
               {ContactText.title}
               </h2>
-            <p className='text-medium py-3 pb-6'>
+            <p className='text-lg py-3 pb-6'>
             {ContactText.subtitle}
               </p>
         </div>
         <div className="w-full flex justify-center m-5 flex-col lg:flex-row xl:flex-row">
         <ContactList />
-          <div className="text-center justify-center align-center px-10">
+          <div className="text-center justify-center align-center px-10 pt-4 w-full">
             <ContactForm />
           </div>
         </div>

@@ -1,8 +1,13 @@
 import { FaWhatsapp, FaTelegramPlane, FaLock, FaEnvelope, FaUserFriends } from 'react-icons/fa';
 
 export const ContactInfo = [
-  { icon: <FaWhatsapp />, type: 'Atendimento', label: 'WhatsApp', info: '+55 51 98579-0398', 
-  url: 'https://wa.me/5551985790398', qrCode: '/img/AtendimentoWA.svg'},
+  { 
+  icon: <FaWhatsapp />, 
+  type: 'Atendimento', 
+  label: 'WhatsApp', 
+  info: '+55 51 98579-0398', 
+  url: 'https://wa.me/5551985790398'
+},
   { icon: <FaTelegramPlane />, type: 'Atendimento', label: 'Telegram', info: '+55 51 98579-0398', 
   url: 'https://t.me/AfroTech', qrCode: '/img/AtendimentoWA.svg'},
   { icon: <FaLock />, type: 'Atendimento', label: 'Signal', info: '+55 51 98579-0398', 

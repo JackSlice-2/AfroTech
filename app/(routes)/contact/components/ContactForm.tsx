@@ -53,7 +53,7 @@ const ContactForm = () => {
       <div className="flex flex-col gap-4 p-2">
         <div className="flex flex-col gap-1">
           <label htmlFor="name" className="text-gray-200">Nome Completo:</label>
-          <input type="text" id="name" name="name" required value={formData.name} onChange={handleChange}
+          <input type="text" id="name" name="name" required placeholder='Nome Completo' value={formData.name} onChange={handleChange}
             className='rounded-lg bg-gray-400/30 p-2 focus:outline-none focus:ring-2 focus:ring-blue-500'></input>
           
           <label htmlFor="phone" className="text-gray-200">Telefone:</label>
@@ -94,7 +94,7 @@ const ContactForm = () => {
 
         <div className="flex flex-col">
           <label htmlFor="message" className="text-gray-200">Escreva sua Mensagem:</label>
-          <textarea name="message" id="message" placeholder="Sua Mensagem" rows={5} cols={30} required
+          <textarea name="message" id="message" placeholder="Sua Mensagem" rows={4} cols={30} required
             className='bg-gray-400/30 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500' value={formData.message} onChange={handleChange}></textarea>
         </div>
 

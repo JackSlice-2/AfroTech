@@ -35,7 +35,7 @@ background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
        <div className="absolute inset-0 pointer-events-none md:hidden servicesBackgroundSM"></div>
 
 
-    <div className="h-full w-full md:flex-row lg:flex-row xl:flex justify-center p-1">
+    <div className="h-full w-full md:flex-row lg:flex-row xl:flex justify-center p-1 pb-20">
       <div className="font-medium text-center">
         <h1 className='text-4xl'>
           {ServicesText.title}

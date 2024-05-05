@@ -1,9 +1,10 @@
 "use client";
 
 import Navbar from "@/app/components/Navbar";
-import { AboutText } from "@/app/data/textData/MainText";
+import { AboutText, qAInfo, StepsInfo } from "@/app/data/textData/MainText";
 import Button from "@/app/components/Button";
 import Image from "next/image";
+import EmployeCards from "@/app/components/EmployeCards";
 
 const App: React.FC = (props) => {
   return (
@@ -47,20 +48,83 @@ background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
               <div className='text-xl color-gray-200'>
               {AboutText.description}
               </div>
-              <div className='pt-2'>
-              <Button
-                  url='/contact'
-                  label={AboutText.buttonLabel}
-                  more
-                />       
-                </div>
           </div>
-            <div className='flex-2 flex flex-col justify-center lg:mr-32 xl:mr-32 py-4'>
-              <div className='w-96 h-96 pb-5 object-contain m-auto hover:scale-110 transition'>
-              <Image src="/img/hacker6.png" alt='' width={800} height={800} className='rounded-3xl' />
-            </div>
+            
+            
+            <div className='gap-5 flex-2 flex flex-row justify-center lg:mr-32 xl:mr-32 pt-32'>
+              <EmployeCards 
+              name='Paulo Neto (P.C)'
+              specialty='Desenvolvedor Senior'
+              job='Fundador & CEO'
+              mission='Inovar e Criar'
+              linkedIn=''
+              imageSrc='/img/hacker6.png'
+              />
+              <EmployeCards 
+              name='Bia Nunes'
+              specialty='Analista de Marketing'
+              job='Co-Fundadora & CMO'
+              mission='Propagar e Divulgar'
+              linkedIn=''
+              imageSrc='/img/fernanda.avif'
+              />
           </div>
+
+
       </div>
+
+
+      <div className="h-full w-[85%] justify-center p-1">
+      <div className="font-medium text-center">
+        <div className='my-10'>
+        <div className='p-5 text-xl rounded-2xl'>
+        <div className='text-2xl p-1'>
+        {AboutText.stepsTitle}<br/>
+        </div>
+        </div>
+        </div>
+        <div 
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-10 pb-10 m-15 justify-center items-center align-middle">
+       {StepsInfo.map((item: any, index: any) => (
+              <div key={index} 
+              className="bg-blue-900/20 rounded-xl p-6 py-5 pb-10 transition-shadow duration-300 min-h-[200px] flex flex-col justify-between w-full">
+                <div>
+                <h2 className="text-2xl font-semibold my-7">{item.label}</h2>
+                <p className="text-gray-400/70 my-2 text-md">{item.description}</p>
+                </div>
+              </div>
+            ))}
+        </div>
+      </div>
+    </div>
+
+
+
+    <div className="h-full w-[85%] justify-center p-1">
+      <div className="font-medium text-center">
+        <div className='my-10'>
+        <div className='p-5 text-3xl rounded-2xl'>
+        <div className='text-2xl p-1'>
+        {AboutText.qATitle}<br/>
+        </div>
+        </div>
+        </div>
+        <div 
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-10 pb-10 m-15 justify-center items-center align-middle">
+       {qAInfo.map((item: any, index: any) => (
+              <div key={index} 
+              className="bg-blue-400/20 rounded-md p-6 py-5 pb-10 transition-shadow duration-300 min-h-[200px] flex flex-col justify-between w-full">
+                <div>
+                <h2 className="text-xl font-semibold my-5">{item.label}</h2>
+                <p className="text-gray-400/70 my-2 text-md">{item.description}</p>
+                </div>
+              </div>
+            ))}
+        </div>
+      </div>
+    </div>
+
+
     </div>    </div>
   );
 }
