@@ -26,7 +26,7 @@ background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
             }
           `}
         </style>
-        <section className="flex flex-col justify-center items-center lg:px-40 xl:px-40">
+        <section className="flex flex-col justify-center items-center">
         <ToastContainer />
         <Navbar />
         <div className="relative flex justify-center items-center flex-col lg:px-20 xl:px-20">
