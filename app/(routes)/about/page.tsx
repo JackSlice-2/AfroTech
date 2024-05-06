@@ -116,7 +116,7 @@ background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-10 pb-10 m-15 justify-center items-center align-middle">
        {qAInfo.map((item: any, index: any) => (
               <div key={index} 
-              className="bg-blue-400/20 rounded-md p-6 py-5 pb-16 transition-shadow duration-300 h-[600px] lg:h-[560px] xl:h-[560px] flex flex-col justify-between w-full">
+              className="bg-blue-400/20 rounded-md p-6 py-5 pb-16 transition-shadow duration-300 h-[600px] lg:h-[570px] xl:h-[570px] flex flex-col justify-between w-full">
                 <div>
                 <h2 className="text-xl font-semibold my-3">{item.label}</h2>
                 <p className="text-gray-400/70 my-2 text-md">{item.description}</p>
