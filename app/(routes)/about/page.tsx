@@ -52,7 +52,7 @@ background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
             
             
         
-    <div className='gap-2 grid lg:flex xl:flex justify-center lg:mr-40 xl:mr-32 pt-32 grid-row-2'>
+    <div className='gap-1 grid lg:flex xl:flex justify-center lg:mr-40 xl:mr-32 pt-32 grid-row-2'>
       {Employees.map((employee, index) => (
         <EmployeCards
           key={index}

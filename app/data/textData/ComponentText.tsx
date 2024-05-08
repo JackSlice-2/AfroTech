@@ -81,6 +81,6 @@ export const Employees = [
     job: 'Co-Fundador & COS',
     mission: 'Conquistar e Fidelizar',
     linkedIn: '',
-    imageSrc: '/img/Marcello.avif',
+    imageSrc: '/img/marcello.jpeg',
   },
 ];
