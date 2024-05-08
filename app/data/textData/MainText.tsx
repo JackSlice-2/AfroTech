@@ -47,17 +47,17 @@ export const MainInfo = [
 export const Dashboards = [
   { 
   imageUrl: "/img/Dashboard de Vendas.png",
-  type: 'Dashboard de Vendas',
+  label: 'Dashboard de Vendas',
   description: 'O Dashboard de Vendas serve para monitorar e analisar o desempenho de vendas de uma empresa. Ele fornece informações valiosas sobre as vendas, como o volume de vendas, a receita gerada, e o desempenho dos produtos. Com um dashboard de vendas, é possível identificar tendências, avaliar o desempenho de vendas, e tomar decisões informadas para impulsionar o crescimento da empresa.',
 },
 {
   imageUrl: "/img/Dashboard de Monitoramento.png",
-  type: 'Dashboard de Monitoramento',
+  label: 'Dashboard de Monitoramento',
   description: 'O Dashboard de Monitoramento é uma ferramenta utilizada atravez de um aplicativo web para monitorar e analisar dados em tempo real. Ele fornece informações valiosas sobre o desempenho de sistemas, aplicativos, e processos, permitindo que os usuários tomem decisões informadas com base em dados atualizados. Com um dashboard de monitoramento, é possível identificar problemas, avaliar o desempenho, e otimizar a eficiência operacional.',
   },
   {
   imageUrl: "/img/Dashboard de Relacionamento.png",
-  type: 'Dashboard de Relacionamento',
+  label: 'Dashboard de Relacionamento',
   description: 'O Dashboard de Relacionamento é uma ferramenta utilizada para gerenciar e analisar o relacionamento com clientes e potenciais clientes. Ele fornece informações valiosas sobre o histórico de interações, as preferências dos clientes, e as oportunidades de vendas. Com um dashboard de relacionamento, é possível identificar tendências, avaliar o desempenho de vendas, e melhorar a experiência do cliente.',
   }
 ];

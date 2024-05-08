@@ -84,9 +84,7 @@ background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
           label: item.label, 
           description: item.description
         },]}
-        gridCols='True'
         bgColor='bg-blue-900'
-        height=''
         />
         </div>
         ))}
@@ -111,9 +109,7 @@ background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
                 label: item.label,
                 description: item.description
               },]}
-              gridCols=''
               bgColor=''
-              height=''
             />
               </div>
             ))}
