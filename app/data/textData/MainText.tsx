@@ -181,7 +181,7 @@ export const MainSubInfo = [
     },
     {
       label: 'Por que velocidade de carregamento é importante?',
-      description: 'A velocidade de carregamento de um site ou aplicativo web é crucial para a experiência do usuário e o sucesso do projeto. Existem estudos que mostram que os usuários tendem a abandonar sites que demoram mais de alguns segundos para carregar, o que pode resultar em perda de tráfego e conversões. Além disso, a velocidade de carregamento é um fator importante para o SEO, pois os motores de busca favorecem sites rápidos. Investir na otimização de desempenho, como a compressão de imagens, a redução de scripts, e o uso de cache, pode melhorar significativamente a velocidade de carregamento do seu site ou aplicativo.'
+      description: 'A velocidade de carregamento de um site ou aplicativo web é crucial para a experiência do usuário e o sucesso do projeto. Existem estudos que mostram que os usuários tendem a abandonar sites que demoram mais de 5 segundos para carregar, o que pode resultar em perda de tráfego e conversões. Além disso, a velocidade de carregamento é um fator importante para o SEO, pois os motores de busca favorecem sites rápidos. Investir na otimização de desempenho, como a compressão de imagens, e o uso de cache, melhora significativamente a velocidade de carregamento do seu site ou aplicativo.'
     }
   ];
   

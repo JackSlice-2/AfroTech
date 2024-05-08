@@ -5,6 +5,7 @@ import { AboutText, qAInfo, StepsInfo } from "@/app/data/textData/MainText";
 import Image from "next/image";
 import EmployeCards from "@/app/components/EmployeCards";
 import { Employees } from "@/app/data/textData/ComponentText";
+import BlueBox from "@/app/components/BlueBox";
 
 const App: React.FC = (props) => {
   return (
@@ -49,8 +50,6 @@ background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
               {AboutText.description}
               </div>
           </div>
-            
-            
         
     <div className='gap-1 grid lg:flex xl:flex justify-center lg:mr-40 xl:mr-32 pt-32 grid-row-2'>
       {Employees.map((employee, index) => (
@@ -66,7 +65,6 @@ background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
         />
       ))}
     </div>
-
    </div>
 
       <div className="h-full w-[85%] justify-center p-1">
@@ -78,25 +76,22 @@ background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
         </div>
         </div>
         </div>
-        <div 
-          className="grid grid-cols-1 gap-10 pb-10 m-15 justify-center items-center align-middle">
-       {StepsInfo.map((item: any, index: any) => (
-              <div key={index} 
-              className="bg-blue-900/20 rounded-xl p-6 py-5 pb-10 transition-shadow duration-300 min-h-[200px] flex flex-col justify-between w-full">
-                <div>
-                <div className="flex justify-center items-center bg-blue-500 text-white rounded-full w-10 h-10">
-                  {item.step}
-                </div>
-                <h2 className="text-2xl font-semibold mb-4">{item.label}</h2>
-                <p className="text-gray-400/70 my-2 text-md">{item.description}</p>
-                </div>
-              </div>
-            ))}
+        {StepsInfo.map((item: any, index: any) => (
+              <div key={index} >   
+              <BlueBox 
+        items={[{
+          step: item.step, 
+          label: item.label, 
+          description: item.description
+        },]}
+        gridCols='True'
+        bgColor='bg-blue-900'
+        height=''
+        />
         </div>
+        ))}
       </div>
     </div>
-
-
 
     <div className="h-full w-[85%] justify-center p-1">
       <div className="font-medium text-center">
@@ -107,21 +102,24 @@ background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
         </div>
         </div>
         </div>
-        <div 
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-10 pb-10 m-15 justify-center items-center align-middle">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-10 pb-10 m-15 justify-center items-center align-middle">
        {qAInfo.map((item: any, index: any) => (
               <div key={index} 
-              className="bg-blue-400/20 rounded-md p-6 py-5 pb-16 transition-shadow duration-300 h-[600px] lg:h-[570px] xl:h-[570px] flex flex-col justify-between w-full">
-                <div>
-                <h2 className="text-xl font-semibold my-3">{item.label}</h2>
-                <p className="text-gray-400/70 my-2 text-md">{item.description}</p>
-                </div>
+              className="bg-blue-400/20 rounded-md p-6 py-5 pb-16 transition-shadow duration-300 h-[650px] lg:h-[590px] xl:h-[590px] flex flex-col justify-between w-full">
+                <BlueBox 
+              items={[{
+                label: item.label,
+                description: item.description
+              },]}
+              gridCols=''
+              bgColor=''
+              height=''
+            />
               </div>
             ))}
         </div>
       </div>
     </div>
-
 
     </div>    
     </div>
