@@ -30,7 +30,7 @@ background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
       <Navbar />
       <div className="h-full w-full md:flex-row lg:flex-row xl:flex">
         <div className="flex flex-col justify-center flex-1 w-full md:p-10 lg:pl-20 xl:pl-20 gap-2">
-          <div className='text-center text-6xl md:text-8xl  text-medium lg:text-start xl:text-start'>
+          <div className='text-center text-6xl md:text-8xl text-medium lg:text-start xl:text-start'>
                 <h1>{AboutText.title}</h1>
                 <h1>{AboutText.subtitle}</h1>
                 <h1>{AboutText.subSubtitle}</h1>
@@ -52,11 +52,12 @@ background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
             
             
         
-    <div className='gap-10 grid lg:flex xl:flex justify-center lg:mr-40 xl:mr-32 pt-32 grid-row-2'>
+    <div className='gap-2 grid lg:flex xl:flex justify-center lg:mr-40 xl:mr-32 pt-32 grid-row-2'>
       {Employees.map((employee, index) => (
         <EmployeCards
           key={index}
           name={employee.name}
+          alias={employee.alias}
           specialty={employee.specialty}
           job={employee.job}
           mission={employee.mission}

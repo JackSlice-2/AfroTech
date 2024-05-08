@@ -57,7 +57,8 @@ export const ImageTextCardText = {
 
 export const Employees = [
   {
-    name: 'Paulo Neto (P.C)',
+    name: 'Paulo Neto',
+    alias: '(P.C)',
     specialty: 'Desenvolvedor Senior',
     job: 'Fundador & CEO',
     mission: 'Inovar e Criar',
@@ -65,7 +66,8 @@ export const Employees = [
     imageSrc: '/img/hacker6.png',
   },
   {
-    name: 'Bianca Nunes (Bia)',
+    name: 'Bianca Nunes ',
+    alias: '(Bia)',
     specialty: 'Analista de Marketing',
     job: 'Co-Fundadora & CMO',
     mission: 'Propagar e Divulgar',
@@ -73,7 +75,8 @@ export const Employees = [
     imageSrc: '/img/fernanda.png',
   },
   {
-    name: 'Marcello Andrade (Cello)',
+    name: 'Marcello Andrade',
+    alias: '(Cello)',
     specialty: 'Vendedor Senior',
     job: 'Co-Fundador & COS',
     mission: 'Conquistar e Fidelizar',

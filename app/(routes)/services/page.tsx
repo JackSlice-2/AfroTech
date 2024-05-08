@@ -51,7 +51,7 @@ background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-10 pb-10 m-15 justify-center items-center align-middle">
        {ServiceInfo.map((item: any, index: any) => (
               <Link href={item.url} key={index} 
-              className="bg-blue-900/20 rounded-3xl p-6 py-10 hover:bg-blue-900/40 transition-shadow duration-300 cursor-pointer max-w-96 min-h-[200px] flex flex-col justify-between transition hover:scale-110">
+              className="bg-blue-900/20 rounded-3xl p-6 py-10 hover:bg-blue-900/40 transition-shadow duration-300 cursor-pointer max-w-96 min-h-[200px] flex flex-col justify-between hover:scale-110">
                 <div className="flex justify-center text-blue-500">
                 {React.cloneElement(item.icon, { size: 50 })}
                 </div>
