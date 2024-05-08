@@ -53,3 +53,31 @@ export const ImageTextCardText = {
   pink: "What we do",
   description: "We strive to create the most intuitive and sophisticated User Interface for the best User Experience, in Web, iOS & Android applications."
 }
+
+
+export const Employees = [
+  {
+    name: 'Paulo Neto (P.C)',
+    specialty: 'Desenvolvedor Senior',
+    job: 'Fundador & CEO',
+    mission: 'Inovar e Criar',
+    linkedIn: '',
+    imageSrc: '/img/hacker6.png',
+  },
+  {
+    name: 'Bianca Nunes (Bia)',
+    specialty: 'Analista de Marketing',
+    job: 'Co-Fundadora & CMO',
+    mission: 'Propagar e Divulgar',
+    linkedIn: '',
+    imageSrc: '/img/fernanda.png',
+  },
+  {
+    name: 'Marcello Andrade (Cello)',
+    specialty: 'Vendedor Senior',
+    job: 'Co-Fundador & COS',
+    mission: 'Conquistar e Fidelizar',
+    linkedIn: '',
+    imageSrc: '/img/Marcello.avif',
+  },
+];

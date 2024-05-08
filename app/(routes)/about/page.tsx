@@ -2,9 +2,9 @@
 
 import Navbar from "@/app/components/Navbar";
 import { AboutText, qAInfo, StepsInfo } from "@/app/data/textData/MainText";
-import Button from "@/app/components/Button";
 import Image from "next/image";
 import EmployeCards from "@/app/components/EmployeCards";
+import { Employees } from "@/app/data/textData/ComponentText";
 
 const App: React.FC = (props) => {
   return (
@@ -51,28 +51,22 @@ background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
           </div>
             
             
-            <div className='gap-10 grid lg:flex xl:flex justify-center lg:mr-40 xl:mr-32 pt-32 grid-row-2'>
-              <EmployeCards 
-              name='Paulo Neto (P.C)'
-              specialty='Desenvolvedor Senior'
-              job='Fundador & CEO'
-              mission='Inovar e Criar'
-              linkedIn=''
-              imageSrc='/img/hacker6.png'
-              />
-              <EmployeCards 
-              name='Bianca Nunes (Bia)'
-              specialty='Analista de Marketing'
-              job='Co-Fundadora & CMO'
-              mission='Propagar e Divulgar'
-              linkedIn=''
-              imageSrc='/img/fernanda.png'
-              />
-          </div>
+        
+    <div className='gap-10 grid lg:flex xl:flex justify-center lg:mr-40 xl:mr-32 pt-32 grid-row-2'>
+      {Employees.map((employee, index) => (
+        <EmployeCards
+          key={index}
+          name={employee.name}
+          specialty={employee.specialty}
+          job={employee.job}
+          mission={employee.mission}
+          linkedIn={employee.linkedIn}
+          imageSrc={employee.imageSrc}
+        />
+      ))}
+    </div>
 
-
-      </div>
-
+   </div>
 
       <div className="h-full w-[85%] justify-center p-1">
       <div className="font-medium text-center">
@@ -128,7 +122,8 @@ background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
     </div>
 
 
-    </div>    </div>
+    </div>    
+    </div>
   );
 }
 
