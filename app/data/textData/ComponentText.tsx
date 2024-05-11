@@ -8,13 +8,38 @@ export const ContactInfo = [
   info: '+55 51 98579-0398', 
   url: 'https://wa.me/5551985790398'
 },
-  { icon: <FaTelegramPlane />, type: 'Atendimento', label: 'Telegram', info: '+55 51 98579-0398', 
-  url: 'https://t.me/AfroTech', qrCode: '/img/AtendimentoWA.svg'},
-  { icon: <FaLock />, type: 'Atendimento', label: 'Signal', info: '+55 51 98579-0398', 
-  url: 'https://signal.me/#eu/7xSmnAgJoHlU2Z6SGzZTBPY2yFIYsmG-EhfXXfGRK7-zlfbbsEFCjomO7HnNL8DW', qrCode: '/img/AtendimentoSignal.svg'},
-  { icon: <FaWhatsapp />, type: 'Suporte Técnico', label: 'WhatsApp', info: '+55 51 98559-0254', 
-  url: 'https://wa.me/5551985590254', qrCode: '/img/SuporteTecnicoWA.svg'},
-  { icon: <FaEnvelope />, type: 'Atendimento', label: 'Email', info: 'afrotech_admin@proton.me', 
+  { icon: <FaTelegramPlane />, 
+    type: 'Atendimento', 
+    label: 'Telegram', 
+    info: '+55 51 98579-0398', 
+  url: 'https://t.me/AfroTech', 
+  qrCode: '/img/AtendimentoWA.svg'
+},
+{ 
+  icon: <FaWhatsapp />, 
+  type: 'Vendas', 
+  label: 'WhatsApp', 
+  info: '+55 51 98545-6394', 
+  url: 'https://wa.me/5551985456394'
+},
+  { icon: <FaTelegramPlane />, 
+    type: 'Vendas', 
+    label: 'Telegram', 
+    info: '+55 51 98545-6394', 
+  url: 'https://t.me/AfroTech', 
+  qrCode: '/img/AtendimentoWA.svg'
+},
+  { icon: <FaWhatsapp />, 
+  type: 'Suporte Técnico', 
+  label: 'WhatsApp', 
+  info: '+55 51 98559-0254', 
+  url: 'https://wa.me/5551985590254', 
+  qrCode: '/img/SuporteTecnicoWA.svg'
+},
+  { icon: <FaEnvelope />, 
+  type: 'Atendimento', 
+  label: 'Email', 
+  info: 'afrotech_admin@proton.me', 
   url: 'mailto:afrotech_admin@proton.me?subject=Inquiry&body=Hello,%20I%20have%20a%20question%20about%20your%20services.'},
 ];
 
@@ -62,7 +87,7 @@ export const Employees = [
     specialty: 'Desenvolvedor Senior',
     job: 'Fundador & CEO',
     mission: 'Inovar e Criar',
-    linkedIn: '',
+    linkedIn: 'http://www.linkedin.com/in/pc-nunes-8a26a2248',
     imageSrc: '/img/hacker6.png',
   },
   {
@@ -71,7 +96,7 @@ export const Employees = [
     specialty: 'Analista de Marketing',
     job: 'Co-Fundadora & CMO',
     mission: 'Propagar e Divulgar',
-    linkedIn: '',
+    linkedIn: 'www.linkedin.com/in/fernanda-rodrigues-4276aa26a',
     imageSrc: '/img/fernanda.png',
   },
   {
@@ -80,7 +105,7 @@ export const Employees = [
     specialty: 'Vendedor Senior',
     job: 'Co-Fundador & COS',
     mission: 'Conquistar e Fidelizar',
-    linkedIn: '',
+    linkedIn: 'https://www.linkedin.com/in/marcello-andrade-779174232/',
     imageSrc: '/img/Marcello.png',
   },
 ];
