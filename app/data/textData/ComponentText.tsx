@@ -87,7 +87,7 @@ export const Employees = [
     specialty: 'Desenvolvedor Senior',
     job: 'Fundador & CEO',
     mission: 'Inovar e Criar',
-    linkedIn: 'http://www.linkedin.com/in/pc-nunes-8a26a2248',
+    linkedIn: 'https://www.linkedin.com/in/pc-nunes-8a26a2248',
     imageSrc: '/img/hacker6.png',
   },
   {
@@ -96,7 +96,7 @@ export const Employees = [
     specialty: 'Analista de Marketing',
     job: 'Co-Fundadora & CMO',
     mission: 'Propagar e Divulgar',
-    linkedIn: 'www.linkedin.com/in/fernanda-rodrigues-4276aa26a',
+    linkedIn: 'https://www.linkedin.com/in/fernanda-rodrigues-4276aa26a',
     imageSrc: '/img/fernanda.png',
   },
   {
