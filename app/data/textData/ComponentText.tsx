@@ -11,7 +11,7 @@ export const ContactInfo = [
   { icon: <FaTelegramPlane />, 
     type: 'Atendimento', 
     label: 'Telegram', 
-    info: '+55 51 98579-0398', 
+    info: '+55 51 98559-0254', 
   url: 'https://t.me/AfroTech', 
   qrCode: '/img/AtendimentoWA.svg'
 },
