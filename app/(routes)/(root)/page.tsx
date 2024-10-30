@@ -2,7 +2,6 @@
 
 import Navbar from "@/app/components/Navbar";
 import { RootText, MainInfo, MainSubInfo, Dashboards } from "@/app/data/textData/MainText";
-import Button from "@/app/components/Button";
 import Image from "next/image";
 import React from "react";
 import BlueBox from "@/app/components/BlueBox";
@@ -113,7 +112,7 @@ const App: React.FC = () => {
 
         <div className="w-full my-10 py-10 bg-blue-900/20 rounded-3xl">
           <div className="text-4xl pb-10">
-          Dashboards de Administração
+            Dashboards de Administração
           </div>
         <div className="grid grid-cols-1 md:px-30 md:p-52 lg:p-10 lg:grid-cols-3 xl:grid-cols-3 justify-center items-center align-middle">
         {Dashboards.map((item: any, index: any) => (
@@ -133,7 +132,7 @@ const App: React.FC = () => {
 
         <hr className="my-8 mt-16"/>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-10 m-15 pt-10 justify-center items-center align-middle">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-10 m-15 pt-10 justify-center items-center align-middle mb-4">
         {MainSubInfo.map((item: any, index: any) => (
               <div key={index}               
               className="bg-blue-900/20 rounded-3xl">
@@ -148,20 +147,7 @@ const App: React.FC = () => {
         </div>
         ))}
         </div>
-        
       </div>
-    </div>
-    <div>
-    <div className="py-20 text-center justify-center items-center text-4xl font-semibold">
-    E Muito, Muito Mais...
-    </div>
-    <div className="text-center justify-center items-center pb-20 text-xl">
-    <Button
-      label={RootText.buttonLabel}
-      more
-      url='/contact'
-    />
-    </div>
     </div>
     </div>      
     </div>

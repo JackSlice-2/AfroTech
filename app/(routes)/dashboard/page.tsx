@@ -3,6 +3,8 @@
 import Navbar from "@/app/components/Navbar";
 import Dashboard from "./components/Dashboard";
 
+export const dynamic = "force-dynamic";
+
 const App: React.FC = (props) => {
   return (
       <div
