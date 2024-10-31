@@ -5,32 +5,12 @@ import { RootText, MainInfo, MainSubInfo, Dashboards } from "@/app/data/textData
 import Image from "next/image";
 import React from "react";
 import BlueBox from "@/app/components/BlueBox";
+import PageContainer from "@/app/components/Elements/PageContainer";
 
 const App: React.FC = () => {
   return (
-    <>
-      <div
-        className="h-screen overflow-y-auto overflow-x-hidden
-       text-gray-300 w-max-full"
-        style={{
-          background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
-          WebkitOverflowScrolling: 'touch', // For smooth scrolling on iOS
-          scrollbarWidth: 'none', // For Firefox
-          msOverflowStyle: 'none', // For Internet Explorer
-          overflow: '-webkit-paged-x',
-        }}>
-        {/* For webkit-based browsers (Chrome and Safari) */}
-        <style>
-          {`::-webkit-scrollbar {
-              width: 0px;
-              height: 0px;
-            }
-          `}
-        </style>
-        <div className=" flex flex-col justify-center items-center px-2">
-      <Navbar />
+      <PageContainer>
     <div className="h-full w-full md:flex-row lg:flex-row xl:flex">
-       
         <div className="flex flex-col justify-center gap-5 flex-1 w-full items-center lg:pl-20 xl:pl-20">
            {/*SMALL SCREEN IMAGES */}
            <div className="relative p-10">
@@ -149,9 +129,7 @@ const App: React.FC = () => {
         </div>
       </div>
     </div>
-    </div>      
-    </div>
-    </>
+    </PageContainer>
   );
 };
 

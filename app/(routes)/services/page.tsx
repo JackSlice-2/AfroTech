@@ -1,39 +1,18 @@
 "use client";
 
-import Navbar from "@/app/components/Navbar";
 import { ServicesText } from "@/app/data/textData/MainText";
 import React from "react";
 import Link from "next/link";
 import { ServiceInfo } from "@/app/data/textData/ComponentText";
+import PageContainer from "@/app/components/Elements/PageContainer";
 
-const App: React.FC = (props) => {
+const App: React.FC = () => {
   return (
-    <>
-      <div
-        className="h-screen overflow-y-auto overflow-x-hidden
-       text-gray-300 w-max-full"
-        style={{
-background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
-          WebkitOverflowScrolling: 'touch', // For smooth scrolling on iOS
-          scrollbarWidth: 'none', // For Firefox
-          msOverflowStyle: 'none', // For Internet Explorer
-          overflow: '-webkit-paged-x',
-        }}>
-        {/* For webkit-based browsers (Chrome and Safari) */}
-        <style>
-          {`::-webkit-scrollbar {
-              width: 0px;
-              height: 0px;
-            }
-          `}
-        </style>
-        <div className="flex flex-col justify-center items-center px-2">
-    <Navbar />
+      <PageContainer>
 
     <div className="absolute -translate-x-96 inset-0 pointer-events-none servicesBackgroundLG"></div>
 
        <div className="absolute inset-0 pointer-events-none md:hidden servicesBackgroundSM"></div>
-
 
     <div className="h-full w-full md:flex-row lg:flex-row xl:flex justify-center p-1 pb-20">
       <div className="font-medium text-center">
@@ -64,8 +43,7 @@ background: 'linear-gradient(160deg, #080018 15%, #2A0159 100%, #3C037F)',
         </div>
       </div>
     </div>
-  </div>      </div>
-    </>
+    </PageContainer>
   );
 };
 

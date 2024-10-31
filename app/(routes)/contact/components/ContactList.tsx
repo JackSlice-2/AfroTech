@@ -3,11 +3,11 @@ import { ContactInfo } from '@/app/data/textData/ComponentText'
 
 const ContactList = () => {
  return (
-    <div className="w-full flex flex-col gap-4 px-20 py-5">
+    <div className="w-full flex flex-col gap-4 md:px-20 px-5 py-5">
       {ContactInfo.map((item, index) => (
         <a href={item.url}  key={index} target='_blank' id={item.label} >
-        <div className="flex items-center p-4 rounded-xl bg-blue-400/20 hover:bg-blue-900/30 hover:text-blue-500 shadow-md cursor-pointer">
-          <div className="w-16 h-16 bg-blue-500 text-white flex justify-center items-center rounded-full">
+        <div className="flex items-center md:p-4 rounded-xl bg-blue-400/20 hover:bg-blue-900/30 hover:text-blue-500 shadow-md cursor-pointer">
+          <div className="ml-2 md:w-16 w-16 h-16 bg-blue-500 text-white flex justify-center items-center rounded-full">
             {React.cloneElement(item.icon, { size: 35 })}
           </div>
           <div className="ml-7 p-1">
