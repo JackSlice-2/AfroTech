@@ -1,4 +1,4 @@
-import { FaWhatsapp, FaTelegramPlane, FaLock, FaEnvelope, FaUserFriends } from 'react-icons/fa';
+import { FaWhatsapp, FaTelegramPlane, FaEnvelope } from 'react-icons/fa';
 
 export const ContactInfo = [
   { 
@@ -43,28 +43,18 @@ export const ContactInfo = [
   url: 'mailto:afrotech_admin@proton.me?subject=Inquiry&body=Hello,%20I%20have%20a%20question%20about%20your%20services.'},
 ];
 
-import { Globe, Clipboard, Wrench, AppWindow } from 'lucide-react';
-import { BsGoogle } from 'react-icons/bs';
+import { Globe, Clipboard, AppWindow } from 'lucide-react';
 
 export const ServiceInfo = [
   { icon: <Globe />, label: 'Websites', 
   description: 'Sites completos projetados para informar e/ou capturar usuários.', 
   url: '/services/pages/websites'},
-  { icon: <FaUserFriends />, label: 'Consultoria para Iniciantes', 
-  description: 'Nós entendemos que nem todos tem conhecimento técnico, e temos um setor decicado a auxiliar o desenvolvimento.', 
-  url: '/services/pages/consult' },
-  { icon: <BsGoogle />, label: 'Google Ads',
-  description: 'Criamos campanhas no Google para exibir anúncios específicos para seu público-alvo e converetê-los em clientes.', 
-  url: '/services/pages/googleAds' },
   { icon: <AppWindow />, label: 'WebApps',
   description: 'Aplicativos completos no navegador para interação, criação e uso.', 
   url: '/services/pages/webapps' },
   { icon: <Clipboard />, label: 'CRMs',
   description: 'Sistemas eficientes de gerenciamento de clientes e dados.', 
-  url: '/services/pages/crms' },
-  { icon: <Wrench />, label: 'Manutenção', 
-  description: 'Manutenção, edição e atualização de sites e aplicativos.', 
-  url: '/services/pages/maintainence' },
+  url: '/services/pages/crms' }
 ];
 
 export const TextImageCardText = {
@@ -79,23 +69,22 @@ export const ImageTextCardText = {
   description: "We strive to create the most intuitive and sophisticated User Interface for the best User Experience, in Web, iOS & Android applications."
 }
 
-
 export const Employees = [
   {
     name: 'Paulo Neto',
     alias: '(P.C)',
     specialty: 'Desenvolvedor Senior',
     job: 'Fundador & CEO',
-    mission: 'Inovar e Criar',
+    mission: 'Arquitetar e Inovar',
     linkedIn: 'https://www.linkedin.com/in/pc-nunes-8a26a2248',
     imageSrc: '/img/hacker6.png',
   },
   {
     name: 'Bianca Nunes ',
     alias: '(Bia)',
-    specialty: 'Analista de Marketing',
-    job: 'Co-Fundadora & CMO',
-    mission: 'Propagar e Divulgar',
+    specialty: 'Designer Gráphico',
+    job: 'Co-Fundadora & CDO',
+    mission: 'Criar e Inspirar',
     linkedIn: 'https://www.linkedin.com/in/fernanda-rodrigues-4276aa26a',
     imageSrc: '/img/fernanda.png',
   },

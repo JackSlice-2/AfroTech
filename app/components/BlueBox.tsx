@@ -1,5 +1,4 @@
 import React from 'react';
-import { AboutText, qAInfo, StepsInfo } from "@/app/data/textData/MainText";
 import Image from 'next/image';
 
 

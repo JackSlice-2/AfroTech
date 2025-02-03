@@ -1,9 +1,6 @@
 
 export const MenuItems = [
   { name: 'Inicio', link: '/' },
-  { name: 'Serviços', link: '/services' },/*
-  { name: 'Produtos', link: '/products' },*/
-  { name: 'Sobre', link: '/about' },
   { name: 'Contato', link: '/contact' },
 ];
 
@@ -19,65 +16,39 @@ export const RootText = {
   };
   
 export const MainInfo = [
-  { imageUrl: "/img/Loja de Roupas.jpeg",
-    label: 'Brechós e Lojas de Roupas', 
+  { imageUrl: "/img/mediflux.png",
+    label: 'Agenda e Prontuario Virtual MediFlux', 
     description: 'Com a possibilidade de expor produtos, realizar vendas online, e gerenciar o estoque, um E-Commerce de roupas é uma ótima opção para quem deseja expandir.', 
   },
-    { imageUrl: "/img/Serviços Médicos.jpeg",
-    label: 'Empresas de Serviços Médicos',
+    { imageUrl: "/img/gdservicos.png",
+    label: 'Gerenciador de Serviços',
     description: 'Anunciar serviços médicos e agendar consultas online aumenta a visibilidade e reduz o volume de chamadas telefônicas para agendamento.', 
   },
-    { imageUrl: "/img/Apps de Tele-Entrega.jpeg",
-    label: 'Bares e Restaurantes',
+    { imageUrl: "/img/ecommerce.png",
+    label: 'Gerenciador de E-Commerce',
     description: 'Aplicativos Web de Tele-Entrega e/ou de Retirar no Local são uma ótima opção para restaurantes e empresas de entrega de alimentos ter um atendimento automatizado.',
-  },
-    { imageUrl: "/img/Academia.jpeg",
-    label: 'Academias & Spa',
-    description: 'Com uma presença online facilita a oferta das informações sobre os serviços, horários e agendamento de aulas e sessões assim criando uma experiência mais fácil para os clientes.',
-  },
-  { imageUrl: "/img/Serviços de Advocacia.jpeg",
-  label: 'Serviços de Advocacia',
-  description: 'Um site de advocacia é uma ferramenta essencial para advogados e escritórios de advocacia que desejam aumentar sua visibilidade e atrair novos clientes.', 
-  },
-  { imageUrl: "/img/Corretoras de Imoveis.jpeg",
-  label: 'Imobiliárias & Corretoras de Imóveis',
-  description: 'Uma presença online para as corretoras auxilia a apresentação dos imóveis disponíveis, facilitando a busca e o contato com os clientes atraindo-o com fotos e informações detalhadas.', 
   }
 ]
 export const Dashboards = [
   { 
-  imageUrl: "/img/Dashboard de Vendas.png",
-  label: 'Dashboard de Vendas',
-  description: 'O Dashboard de Vendas serve para monitorar e analisar o desempenho de vendas de uma empresa. Ele fornece informações valiosas sobre as vendas, como o volume de vendas, a receita gerada, e o desempenho dos produtos. Com um dashboard de vendas, é possível identificar tendências, avaliar o desempenho de vendas, e tomar decisões informadas para impulsionar o crescimento da empresa.',
-},
-{
-  imageUrl: "/img/Dashboard de Monitoramento.png",
-  label: 'Dashboard de Monitoramento',
-  description: 'O Dashboard de Monitoramento é uma ferramenta utilizada atravez de um aplicativo web para monitorar e analisar dados em tempo real. Ele fornece informações valiosas sobre o desempenho de sistemas, aplicativos, e processos, permitindo que os usuários tomem decisões informadas com base em dados atualizados. Com um dashboard de monitoramento, é possível identificar problemas, avaliar o desempenho, e otimizar a eficiência operacional.',
+    imageUrl: "/img/Dashboard de Vendas.png",
+    label: 'Dashboard de Vendas',
+    description: 'O Dashboard de Vendas serve para monitorar e analisar o desempenho de vendas de uma empresa. Ele fornece informações valiosas sobre as vendas, como o volume de vendas, a receita gerada, e o desempenho dos produtos. Com um dashboard de vendas, é possível identificar tendências, avaliar o desempenho de vendas, e tomar decisões informadas para impulsionar o crescimento da empresa.',
   },
   {
-  imageUrl: "/img/Dashboard de Relacionamento.png",
-  label: 'Dashboard de Relacionamento',
-  description: 'O Dashboard de Relacionamento é uma ferramenta utilizada para gerenciar e analisar o relacionamento com clientes e potenciais clientes. Ele fornece informações valiosas sobre o histórico de interações, as preferências dos clientes, e as oportunidades de vendas. Com um dashboard de relacionamento, é possível identificar tendências, avaliar o desempenho de vendas, e melhorar a experiência do cliente.',
-  }
-];
-export const MainSubInfo = [
-  { imageUrl: "/img/Treinamento e Suporte Técnico.png",
-  label: 'Treinamento e Suporte Técnico',
-  description: 'Oferecemos treinamento e suporte técnico abrangente para garantir que você tenha todas as ferramentas e conhecimentos necessários para gerenciar seu site ou aplicativo com confiança. Nossa equipe de especialistas está aqui para ajudá-lo a superar quaisquer desafios técnicos, fornecendo suporte e treinamento personalizado. Com nossa ajuda, você pode controlar sua presença online e garantir que ela esteja sempre funcionando sem nessesidades de uma equipe de T.I.',
-  },
-  { imageUrl: "/img/SEO, Google Ads e Ads de Redes Sociais.png",
-  label: 'SEO e Google Ads',
-  description: 'Nosso serviço de SEO & google Ads é uma combinação poderosa de análise de mercado, pesquisa de palavras-chave e estratégias de campanha. Trabalhamos para otimizar seu site e conteúdo para os motores de busca, garantindo que ele apareça nos primeiros resultados de pesquisa relevantes. Além disso, desenvolvemos campanhas de marketing digital personalizadas no Google Ads para alcançar seu público-alvo com mensagens direcionadas, convertendo visitantes em clientes leais.',
-  },
-  { imageUrl: "/img/Consultoria Gratuita de Negócios Digitais.png",
-  label: 'Consultoria de Negócios Digitais Gratuita',
-  description: 'Nossa consultoria de negócios digitais é projetada para ajudá-lo a navegar pelo vasto mundo digital que está em constante evolução . Oferecemos orientação personalizada para ensinar e auxiliar a entender e implementar estratégias digitais que não apenas melhoram sua presença online, mas que também fortalecem sua marca. Com nossa ajuda, você pode transformar sua marca digital em uma força implacavél para o crescimento e a expansão do seu negócio.',
-  }
+    imageUrl: "/img/Dashboard de Monitoramento.png",
+    label: 'Dashboard de Monitoramento',
+    description: 'O Dashboard de Monitoramento é uma ferramenta utilizada atravez de um aplicativo web para monitorar e analisar dados em tempo real. Ele fornece informações valiosas sobre o desempenho de sistemas, aplicativos, e processos, permitindo que os usuários tomem decisões informadas com base em dados atualizados. Com um dashboard de monitoramento, é possível identificar problemas, avaliar o desempenho, e otimizar a eficiência operacional.',
+    },
+    {
+    imageUrl: "/img/Dashboard de Relacionamento.png",
+    label: 'Dashboard de Relacionamento',
+    description: 'O Dashboard de Relacionamento é uma ferramenta utilizada para gerenciar e analisar o relacionamento com clientes e potenciais clientes. Ele fornece informações valiosas sobre o histórico de interações, as preferências dos clientes, e as oportunidades de vendas. Com um dashboard de relacionamento, é possível identificar tendências, avaliar o desempenho de vendas, e melhorar a experiência do cliente.',
+    }
 ];
 
   export const ServicesText = {
-    title: 'Especialidades da Casa',
+    title: 'Serviços',
     subtitle: 'Descubra como nossos serviços podem transformar seu negócio',
     subSubtitle: 'A distância entre você e um futuro digital está à alguns Cliques',
   };

@@ -4,17 +4,16 @@ import { ServicesText } from "@/app/data/textData/MainText";
 import React from "react";
 import Link from "next/link";
 import { ServiceInfo } from "@/app/data/textData/ComponentText";
-import PageContainer from "@/app/components/Elements/PageContainer";
 
-const App: React.FC = () => {
+const ServicesClient = () => {
   return (
-      <PageContainer>
+      <>
 
     <div className="absolute -translate-x-96 inset-0 pointer-events-none servicesBackgroundLG"></div>
 
        <div className="absolute inset-0 pointer-events-none md:hidden servicesBackgroundSM"></div>
 
-    <div className="h-full w-full md:flex-row lg:flex-row xl:flex justify-center p-1 pb-20">
+    <div className="h-full w-full md:flex-row lg:flex-row xl:flex justify-center mt-10">
       <div className="font-medium text-center">
         <h1 className='text-4xl'>
           {ServicesText.title}
@@ -43,8 +42,8 @@ const App: React.FC = () => {
         </div>
       </div>
     </div>
-    </PageContainer>
+    </>
   );
 };
 
-export default App;
+export default ServicesClient;

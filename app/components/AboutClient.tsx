@@ -1,16 +1,14 @@
 "use client";
 
-import Navbar from "@/app/components/Navbar";
 import { AboutText, qAInfo, StepsInfo } from "@/app/data/textData/MainText";
 import Image from "next/image";
 import EmployeCards from "@/app/components/EmployeCards";
 import { Employees } from "@/app/data/textData/ComponentText";
 import BlueBox from "@/app/components/BlueBox";
-import PageContainer from "@/app/components/Elements/PageContainer";
 
-const App: React.FC = (props) => {
+const AboutClient = () => {
   return (
-      <PageContainer>
+      <>
       <div className="h-full w-full md:flex-row lg:flex-row xl:flex px-5">
         <div className="flex flex-col justify-center flex-1 w-full md:p-10 lg:pl-20 xl:pl-20 gap-2">
           <div className='text-center text-6xl md:text-8xl text-medium lg:text-start xl:text-start'>
@@ -33,7 +31,7 @@ const App: React.FC = (props) => {
               </div>
           </div>
         
-    <div className='gap-1 grid lg:flex xl:flex justify-center lg:mr-40 xl:mr-32 pt-32 grid-row-2'>
+    <div className='gap-1 flex-col justify-center lg:mr-40 xl:mr-32'>
       {Employees.map((employee, index) => (
         <EmployeCards
           key={index}
@@ -42,36 +40,12 @@ const App: React.FC = (props) => {
           specialty={employee.specialty}
           job={employee.job}
           mission={employee.mission}
-          linkedIn={employee.linkedIn}
           imageSrc={employee.imageSrc}
         />
       ))}
     </div>
    </div>
 
-      <div className="h-full w-[85%] justify-center p-1">
-      <div className="font-medium text-center">
-        <div className='my-10'>
-        <div className='p-5 text-xl rounded-2xl'>
-        <div className='text-2xl p-1'>
-        {AboutText.stepsTitle}<br/>
-        </div>
-        </div>
-        </div>
-        {StepsInfo.map((item: any, index: any) => (
-              <div key={index} >   
-              <BlueBox 
-        items={[{
-          step: item.step, 
-          label: item.label, 
-          description: item.description
-        },]}
-        bgColor='bg-blue-900'
-        />
-        </div>
-        ))}
-      </div>
-    </div>
 
     <div className="h-full w-[85%] justify-center p-1">
       <div className="font-medium text-center">
@@ -98,8 +72,8 @@ const App: React.FC = (props) => {
         </div>
       </div>
     </div>
-    </PageContainer>
+    </>
   );
 }
 
-export default App;
+export default AboutClient;

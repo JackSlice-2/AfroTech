@@ -1,0 +1,119 @@
+"use client";
+
+import { RootText, MainInfo, Dashboards } from "@/app/data/textData/MainText";
+import Image from "next/image";
+import React from "react";
+import BlueBox from "@/app/components/BlueBox";
+import ServicesClient from "@/app/components/ServicesClient";
+
+const Hero = () => {
+  return (
+    <>
+    <div className="h-full w-full md:flex-row lg:flex-row xl:flex">
+        <div className="flex flex-col justify-center gap-5 flex-1 w-full items-center lg:pl-20 xl:pl-20">
+           {/*SMALL SCREEN IMAGES */}
+           <div className="relative p-10">
+            <Image src="/img/hacker7.png" alt="line" height={600} width={400}
+              className='animate-float lg:hidden xl:hidden' />
+          </div>
+
+          <h1 className="text-center text-4xl lg:text-6xl xl:text-6xl lg:pt-32 xl:pt-32">
+            &rdquo;{RootText.title}&rdquo;
+          </h1>
+          <div className="flex items-center gap-3 justify-center">
+            <Image src="/img/line.png" alt="line" height={10} width={50} />
+              <h2 className="text-pink-400">{RootText.pink}</h2>
+            <Image src="/img/line.png" alt="line" height={10} width={50} />
+          </div>
+          <p className="text-2xl text-gray-300 text-center  w-[70%]"> 
+          {RootText.description}
+          </p>
+       
+        </div>
+          {/*LARGE SCREEN IMAGES */}
+        <div className="flex-1 hidden mt-32 relative md:hidden lg:block xl:block">
+          <Image width={450} height={450} alt=''
+            className='object-contain absolute inset-0 mx-auto animate-float pb-5' 
+            src="/img/hacker7.png"/>
+        </div>
+      </div>
+
+
+      <div className="h-full w-full md:flex-row lg:flex-row xl:flex mt-40">
+    {/* Image Container */}
+ <div className="flex-1 justify-center items-center text-center xl:pl-16 lg:pl-16 pb-20 lg:py-32 xl:py-32 h-full">
+    <Image width={500} height={400} alt='' className='object-contain rounded-2xl mx-auto' src="/img/hacker9.png"/>
+</div>
+
+    <div className="flex-1 w-full lg:w-2/3 xl:w-2/3 flex flex-col justify-center gap-5 items-center md:p-10 lg:px-52 xl:px-52">
+        <h1 className="text-center justify-center text-4xl sm:text-6xl lg:text-6xl xl:text-6xl lg:pt-32 xl:pt-32">
+            {RootText.subTitle}
+        </h1>
+        <div className="flex items-center gap-3 justify-center">
+            <Image src="/img/line.png" alt="line" height={10} width={50} />
+            <h2 className="text-pink-400 text-center">{RootText.subPink}</h2>
+            <Image src="/img/line.png" alt="line" height={10} width={50} />
+        </div>
+        <p className="text-2xl text-gray-300 text-center"> 
+            {RootText.subDescription}
+        </p>
+       
+    </div>
+</div>
+
+<div className="h-full w-[85%] justify-center p-1">
+      <div className="font-medium text-center pt-14">
+
+        <hr className="py-10"/>
+        
+        <div>
+        <div className='p-5 rounded-2xl'>
+        <div className='text-3xl md:text-4xl pb-10'>
+        {RootText.footTitle}
+        </div>
+        </div>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-10 m-15 justify-center items-center align-middle">
+        {MainInfo.map((item: any, index: any) => (
+          <div key={index}               
+              className="bg-blue-900/20 rounded-3xl">
+            <BlueBox
+           items={[{
+            imageUrl: item.imageUrl,
+            label: item.label,
+            description: item.description
+          },]}
+          bgColor=''
+        />
+        </div>
+        ))}
+        </div>
+
+        <div className="w-full my-10 py-10 bg-blue-900/20 rounded-3xl">
+          <div className="text-4xl pb-10">
+            Dashboards de Administração
+          </div>
+        <div className="grid grid-cols-1 md:px-30 md:p-52 lg:p-10 lg:grid-cols-3 xl:grid-cols-3 justify-center items-center align-middle">
+        {Dashboards.map((item: any, index: any) => (
+              <div key={index}>
+        <BlueBox
+           items={[{
+            imageUrl: item.imageUrl,
+            label: item.label,
+            description: item.description
+          },]}
+          bgColor=''
+        />
+        </div>
+        ))}
+        </div>
+        </div>
+
+        <ServicesClient />
+      </div>
+    </div>
+    </>
+  );
+};
+
+export default Hero;
