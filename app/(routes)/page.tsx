@@ -3,7 +3,7 @@
 import React from "react";
 import PageContainer from "@/app/components/Elements/PageContainer";
 import AboutClient from "@/app/components/AboutClient";
-import Hero from "./Hero";
+import Hero from "../components/Hero";
 
 const App: React.FC = () => {
   return (
