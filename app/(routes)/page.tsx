@@ -4,6 +4,7 @@ import React from "react";
 import PageContainer from "@/app/components/Elements/PageContainer";
 import AboutClient from "@/app/components/AboutClient";
 import Hero from "../components/Hero";
+import Footer from "../components/Elements/Footer";
 
 const App: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const App: React.FC = () => {
           <AboutClient />
         </div>
       </div>
+      <Footer />
     </PageContainer>
   );
 };

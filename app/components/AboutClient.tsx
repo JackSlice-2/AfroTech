@@ -31,19 +31,7 @@ const AboutClient = () => {
               </div>
           </div>
         
-    <div className='gap-1 flex-col justify-center lg:mr-40 xl:mr-32'>
-      {Employees.map((employee, index) => (
-        <EmployeCards
-          key={index}
-          name={employee.name}
-          alias={employee.alias}
-          specialty={employee.specialty}
-          job={employee.job}
-          mission={employee.mission}
-          imageSrc={employee.imageSrc}
-        />
-      ))}
-    </div>
+
    </div>
 
 
