@@ -47,7 +47,7 @@ const AboutClient = () => {
    </div>
 
 
-    <div className="h-full w-[85%] justify-center p-1">
+   {/* <div className="h-full w-[85%] justify-center p-1">
       <div className="font-medium text-center">
         <div className='my-10'>
         <div className='p-5 text-3xl rounded-2xl'>
@@ -71,7 +71,7 @@ const AboutClient = () => {
             ))}
         </div>
       </div>
-    </div>
+    </div>*/}
     </>
   );
 }
