@@ -4,7 +4,6 @@ import { RootText, MainInfo, Dashboards } from "@/app/data/textData/MainText";
 import Image from "next/image";
 import React from "react";
 import BlueBox from "@/app/components/BlueBox";
-import ServicesClient from "@/app/components/ServicesClient";
 
 const Hero = () => {
   return (
@@ -108,8 +107,6 @@ const Hero = () => {
         ))}
         </div>
         </div>
-
-        <ServicesClient />
       </div>
     </div>
     </>
